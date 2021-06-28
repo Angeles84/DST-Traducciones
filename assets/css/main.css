@@ -10397,7 +10397,7 @@ header {
 }
 
 .article-confidencialidad-img {
-  width: 28%;
+  width: 20%;
 }
 @media (min-width: 375px) {
   .article-confidencialidad-img {
@@ -10411,7 +10411,7 @@ header {
 }
 
 .article-excelencia-img {
-  width: 36%;
+  width: 28%;
 }
 @media (min-width: 375px) {
   .article-excelencia-img {
@@ -10425,7 +10425,7 @@ header {
 }
 
 .article-rapidez-img {
-  width: 41%;
+  width: 33%;
 }
 @media (min-width: 375px) {
   .article-rapidez-img {
