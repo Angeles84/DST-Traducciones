@@ -10056,7 +10056,8 @@ P {
 }
 
 .article-why-us {
-  height: 190vh;
+  height: 150vh;
+  height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10089,7 +10090,7 @@ P {
 }
 
 nav a {
-  font-size: 1em;
+  font-size: 1.063em;
   transition: all 0.8s ease;
   font-weight: 400;
 }

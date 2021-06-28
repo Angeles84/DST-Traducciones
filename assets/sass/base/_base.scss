@@ -64,7 +64,8 @@
 
 //Why Us
 .article-why-us {
-  height: 190vh;
+  height: 150vh;
+  height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
