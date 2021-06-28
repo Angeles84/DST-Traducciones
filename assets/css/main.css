@@ -10056,7 +10056,7 @@ P {
 }
 
 .article-why-us {
-  height: 270vh;
+  height: 145vh;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10064,7 +10064,7 @@ P {
 }
 @media (min-width: 375px) {
   .article-why-us {
-    height: 135vh;
+    height: 140vh;
   }
 }
 @media (min-width: 576px) {

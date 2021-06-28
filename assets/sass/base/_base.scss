@@ -64,14 +64,14 @@
 
 //Why Us
 .article-why-us {
-  height: 270vh;
+  height: 145vh;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;  
 
   @include x-small {
-    height: 135vh;  
+    height: 140vh;  
   } 
   @include small {
     height: 145vh;  
