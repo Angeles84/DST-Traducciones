@@ -206,21 +206,30 @@
 }
 
 .article-confidencialidad-img {
-  width: 30%;
+  width: 28%;
+  @include x-small {
+    width: 30%; 
+  }
   @include medium {
     width: 32%; 
   }
 }
 
 .article-excelencia-img {
-  width: 38%;
+  width: 36%;
+  @include x-small {
+    width: 38%; 
+  }
   @include medium {
     width: 40%; 
   }
 }
 
 .article-rapidez-img {
-  width: 43%;
+  width: 41%;
+  @include x-small {
+    width: 43%; 
+  }
   @include medium {
     width: 45%; 
   }

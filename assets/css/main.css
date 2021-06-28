@@ -10397,7 +10397,12 @@ header {
 }
 
 .article-confidencialidad-img {
-  width: 30%;
+  width: 28%;
+}
+@media (min-width: 375px) {
+  .article-confidencialidad-img {
+    width: 30%;
+  }
 }
 @media (min-width: 768px) {
   .article-confidencialidad-img {
@@ -10406,7 +10411,12 @@ header {
 }
 
 .article-excelencia-img {
-  width: 38%;
+  width: 36%;
+}
+@media (min-width: 375px) {
+  .article-excelencia-img {
+    width: 38%;
+  }
 }
 @media (min-width: 768px) {
   .article-excelencia-img {
@@ -10415,7 +10425,12 @@ header {
 }
 
 .article-rapidez-img {
-  width: 43%;
+  width: 41%;
+}
+@media (min-width: 375px) {
+  .article-rapidez-img {
+    width: 43%;
+  }
 }
 @media (min-width: 768px) {
   .article-rapidez-img {
