@@ -10056,7 +10056,7 @@ P {
 }
 
 .article-why-us {
-  height: 190vh;
+  height: 200vh;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10064,7 +10064,7 @@ P {
 }
 @media (min-width: 375px) {
   .article-why-us {
-    height: 155vh;
+    height: 160vh;
   }
 }
 @media (min-width: 576px) {
@@ -10084,7 +10084,7 @@ P {
 }
 
 nav a {
-  font-size: 1em;
+  font-size: 1.125em;
   transition: all 0.8s ease;
   font-weight: 400;
 }
@@ -10142,7 +10142,7 @@ header {
 
 .carousel-texto-home {
   padding-bottom: 0.1rem;
-  padding-right: 2.5em;
+  padding-right: 2.3em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
