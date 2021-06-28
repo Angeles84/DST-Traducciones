@@ -1,9 +1,12 @@
 nav a {
-  font-size: $small;
+  font-size: $medium;
   transition: all 0.8s ease;
   font-weight: $regular;
+  @include small {
+    font-size: $small;
+  }
   .nav-logo {
-    width: 3rem;
+    width: 3.3rem;
 
     @include small {
       width: 5rem;

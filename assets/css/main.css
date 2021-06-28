@@ -10056,7 +10056,7 @@ P {
 }
 
 .article-why-us {
-  height: 180vh;
+  height: 190vh;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10084,12 +10084,17 @@ P {
 }
 
 nav a {
-  font-size: 0.938em;
+  font-size: 1em;
   transition: all 0.8s ease;
   font-weight: 400;
 }
+@media (min-width: 576px) {
+  nav a {
+    font-size: 0.938em;
+  }
+}
 nav a .nav-logo {
-  width: 3rem;
+  width: 3.3rem;
 }
 @media (min-width: 576px) {
   nav a .nav-logo {
