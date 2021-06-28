@@ -1,0 +1,42 @@
+nav a {
+  font-size: $small;
+  transition: all 0.8s ease;
+  font-weight: $regular;
+  .nav-logo {
+    width: 3rem;
+
+    @include small {
+      width: 5rem;
+    }
+  }
+  .nav-bandera-b {
+    width: 1.5rem;
+  }
+  .nav-green {
+    color: $esmerald;
+    font-weight: $semibold;
+  }
+  .nav-gray {
+    color: $gray;
+  }
+}
+
+nav a:last-child {
+  font-size: $x-small;
+  padding-top: 0.63rem;
+}
+
+.navbar-brand {
+  font-family: 'eurostiletmedregular';
+  font-size: $medium;
+
+  @include small {
+    font-size: $large;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+

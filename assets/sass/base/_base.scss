@@ -1,0 +1,85 @@
+//sass --watch assets/sass/main.scss:assets/css/main.css
+
+//Servicios
+.servicio-1 {
+  height: 27vh;
+  background-image: url(../img/servicio-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 35vh;  
+  }
+  @include medium {
+    height: 25vh;  
+  }
+  @include large {
+    height: 27vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+}
+
+.servicio-2 {
+  height: 27vh;
+  background-image: url(../img/servicio-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 35vh;  
+  }
+  @include medium {
+    height: 25vh;  
+  }
+  @include large {
+    height: 27vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+}
+
+.servicio-3 {
+  height: 27vh;
+  background-image: url(../img/servicio-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 35vh;  
+  }
+  @include medium {
+    height: 25vh;  
+  }
+  @include large {
+    height: 27vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+}
+
+
+//Why Us
+.article-why-us {
+  height: 180vh;
+  background-image: url(../img/why-us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+
+  @include x-small {
+    height: 155vh;  
+  } 
+  @include small {
+    height: 130vh;  
+  } 
+  @include medium {
+    height: 147vh;  
+  }
+  @include large {
+    height: 87vh;  
+  }
+}

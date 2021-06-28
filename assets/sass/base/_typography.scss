@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'eurostiletmedregular';
+  src: url('fonts/eurostiletmed-webfont.eot');
+  src: url('fonts/eurostiletmed-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/eurostiletmed-webfont.woff2') format('woff2'),
+       url('fonts/eurostiletmed-webfont.woff') format('woff'),
+       url('fonts/eurostiletmed-webfont.ttf') format('truetype'),
+       url('fonts/eurostiletmed-webfont.svg#eurostiletmedregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h2 {
+  font-family: $source-sans;
+  font-weight: $semibold;
+  font-size: $xxx-large;
+}
+
+h4 {
+  font-weight: $semibold;
+  font-size: $large;
+  @include medium {
+    font-size: $x-large;
+  }
+}
+
+h5 {
+  font-weight: $semibold;
+  font-size: $large-cel;
+}
+
+P {
+  font-weight: $regular;
+  font-size: $medium;
+}

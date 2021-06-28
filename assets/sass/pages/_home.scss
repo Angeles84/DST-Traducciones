@@ -1,0 +1,220 @@
+//Header
+.carousel-texto-home {
+  padding-bottom: .1rem;
+  padding-right: 2.5em;
+
+  @include x-small {
+    padding-right: 5.2em;
+    padding-bottom: .6rem;
+  }
+  @include medium {
+    padding-bottom: 5.5rem;
+  }
+  @include large {
+    padding-bottom: 11.8rem;
+  }
+
+  h2 {
+    font-size: $large-cel;
+
+    @include x-small {
+      font-size: $x-large;  
+    }
+    @include small {
+      font-size: $xxx-large;  
+    } 
+  }
+
+  p {
+    font-size: $x-small;
+
+    @include small {
+      font-size: $small;  
+    } 
+    @include medium {
+      font-size: $medium;  
+    }
+  }  
+}
+
+//Nosotros
+.section-about {
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  color: $dark-gray;
+
+  @include small {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;  
+  }
+  img {
+  width: 85%;
+  border-radius: 0 60px 0 60px;
+  box-shadow: 6px 8px 70px rgba(0, 0, 0,0.4);
+
+  @include medium {
+    width: 65%; 
+  }
+  @include large {
+    width: 90%; 
+  }
+  @include x-large {
+    width: 72%; 
+  }
+  }
+  hr {
+    background-color: $green;
+    height: 0.092em;
+    width: 52%;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+    
+    @include x-small {
+      width: 27%; 
+    }
+    @include small {
+      width: 28%; 
+    }
+    @include medium {
+      width: 21%; 
+    }
+    @include large {
+      margin-left: 0;
+      width: 31%;
+    }
+    @include x-large {
+      width: 26%;
+    }
+  } 
+  a {
+    color: $esmerald;
+  } 
+}
+
+
+//Servicios
+.article-servicios {
+  background-color: $light-gray;
+  h5 {
+    padding: 0.6rem 1.2rem;
+    background-color: rgba(0, 86, 115, 0.86);
+    align-self: flex-end;
+    margin-bottom: 0;
+    width: 100%;
+    @include large {
+      padding: 0.6rem 1rem;
+    }
+    @include x-large {
+      padding: 0.6rem 1.2rem;
+    }
+    
+  }
+  hr {
+    background-color: $green;
+    height: 0.092em;
+    width: 54%;
+    margin-top: 0.3rem;
+    margin-bottom: 3rem;
+
+    @include x-small {
+      width: 43%; 
+    }
+    @include small {
+      width: 27%; 
+    }
+    @include medium {
+      width: 20%; 
+    }
+    @include large {
+      width: 14.5%;
+    }
+    @include x-large {
+      width: 12.5%;
+    }
+  }
+  p {
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+    font-size: $x-small;
+    font-weight: $regular;
+  }
+}
+
+.servicio-1, .servicio-2, .servicio-3 {
+  display: flex;
+}
+
+.servicios-button {
+  background-color: $light-gray;
+  border: 1.5px solid $esmerald;
+  color: $esmerald;
+  font-size: $small-b;
+  font-weight: $semibold;
+  padding: 0.5rem 1.5rem;
+}
+
+
+//¿Por qué nosotros?
+.article-filter {
+  background-color: rgba(0, 86, 115, 0.86);
+  height: 100%;
+
+  h2 {
+    font-size: $xx-large;
+    @include x-small {
+      font-size: $xxx-large; 
+    }
+  }
+
+  hr {
+    background-color: $green;
+    height: 0.092em;
+    width: 75%;
+    margin-top: 0.3rem;
+    margin-bottom: 1.1rem;
+
+    @include x-small {
+      width: 51%; 
+    }
+    @include small {
+      width: 48%; 
+    }
+    @include medium {
+      width: 37%; 
+      margin-bottom: 2rem;
+    }
+    @include large {
+      width: 29%;
+    }
+    @include x-large {
+      width: 22.5%;
+    }
+  }
+  .article-container {
+    padding-top: 2.5rem;
+  }
+  p {
+    font-size: $small;
+  }
+}
+
+.article-confidencialidad-img {
+  width: 30%;
+  @include medium {
+    width: 32%; 
+  }
+}
+
+.article-excelencia-img {
+  width: 38%;
+  @include medium {
+    width: 40%; 
+  }
+}
+
+.article-rapidez-img {
+  width: 43%;
+  @include medium {
+    width: 45%; 
+  }
+}

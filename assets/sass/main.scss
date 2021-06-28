@@ -1,0 +1,30 @@
+// Utils
+@import 'utils/variables';
+@import 'utils/mixins';
+
+// Vendors
+@import 'vendors/scss/bootstrap';
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+// Layout
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/forms';
+@import 'layout/footer';
+
+// Components
+@import 'components/carousel';
+@import 'components/buttons';
+@import 'components/inputs';
+
+//Pages
+@import 'pages/home';
+@import 'pages/about-us';
+@import 'pages/services';
+@import 'pages/confidentiality';
+@import 'pages/contact-us';
+

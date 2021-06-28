@@ -1,0 +1,74 @@
+// Color Scheme
+
+// First Color Scheme
+$white: #FFF;
+$dark-gray: #262626;
+$gray: #696969;
+$light-gray: #F7F7F7;
+
+// Second Color Scheme
+$esmerald: #006384;
+$green: #ADC4C8;
+$gray-green: #89949e;
+$light-gray-green: #D6E1E3;
+
+
+///////////////// 
+//Tipography
+
+//Font Family
+$source-sans: 'Source Sans Pro', sans-serif;
+
+// Font Weight
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+
+// Font Sizes
+$xxxx-large: 2.75em;
+$xxx-large: 2.188em;
+$xx-large: 1.875em;
+$x-large: 1.5em;
+$large: 1.375em;
+$large-cel: 1.125em;
+$medium: 1em;
+$small: 0.938em;
+$small-b: 0.813;
+$x-small: 0.781em;
+
+// Breackpoints
+$min-xxs: 1px;
+$min-xs: 375px;
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1400px;
+
+$max-xs: 575px;
+$max-sm: 767px;
+$max-md: 991px;
+$max-lg: 1199px;
+$max-xl: 1399px;
+$max-xxl: 1800px;
+
+$breakpoints: (
+    'xxs' : (min-width: $min-xxs),
+    'xs' : (min-width: $min-xs),
+    'sm' : (min-width: $min-sm),
+    'md' : (min-width: $min-md),
+    'lg' : (min-width: $min-lg),
+    'xl' : (min-width: $min-xl),
+    'xxl': (min-width: $min-xxl)
+
+) !default;
+
+//Navbar
+$navbar-light-color: $dark-gray;
+$navbar-light-active-color: $gray-green;
+$navbar-light-hover-color: $gray-green;
+
+//Carousel
+$carousel-control-color: $green;
+$carousel-indicator-active-bg: $green;
+$carousel-caption-color: $dark-gray;
