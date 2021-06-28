@@ -207,6 +207,7 @@
 
 .article-confidencialidad-img {
   width: 20%;
+
   @include x-small {
     width: 30%; 
   }
@@ -217,6 +218,7 @@
 
 .article-excelencia-img {
   width: 28%;
+
   @include x-small {
     width: 38%; 
   }
@@ -227,10 +229,47 @@
 
 .article-rapidez-img {
   width: 33%;
+
   @include x-small {
     width: 43%; 
   }
   @include medium {
     width: 45%; 
+  }
+}
+
+//Testimonios
+.section-testimonios {
+  padding-top: 3rem;
+
+  h2 {
+    font-size: $xx-large;
+    @include x-small {
+      font-size: $xxx-large; 
+    }
+  }
+  hr {
+    background-color: $green;
+    height: 0.092em;
+    width: 60%;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+    
+    @include x-small {
+      width: 42%; 
+    }
+    @include small {
+      width: 28%; 
+    }
+    @include medium {
+      width: 21%; 
+    }
+    @include large {
+      margin-left: 0;
+      width: 31%;
+    }
+    @include x-large {
+      width: 26%;
+    }
   }
 }
