@@ -8,10 +8,10 @@
   background-size: cover;
   background-position: center; 
   @include small {
-    height: 35vh;  
+    height: 38vh;  
   }
   @include medium {
-    height: 25vh;  
+    height: 29vh;  
   }
   @include large {
     height: 27vh;  
@@ -28,10 +28,10 @@
   background-size: cover;
   background-position: center; 
   @include small {
-    height: 35vh;  
+    height: 38vh;  
   }
   @include medium {
-    height: 25vh;  
+    height: 29vh;  
   }
   @include large {
     height: 27vh;  
@@ -48,10 +48,10 @@
   background-size: cover;
   background-position: center; 
   @include small {
-    height: 35vh;  
+    height: 38vh;  
   }
   @include medium {
-    height: 25vh;  
+    height: 29vh;  
   }
   @include large {
     height: 27vh;  
@@ -74,12 +74,15 @@
     height: 155vh;  
   } 
   @include small {
-    height: 130vh;  
+    height: 145vh;  
   } 
   @include medium {
-    height: 147vh;  
+    height: 165vh;  
   }
   @include large {
-    height: 87vh;  
+    height: 100vh;  
+  }
+  @include x-large {
+    height: 78vh;  
   }
 }

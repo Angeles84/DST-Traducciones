@@ -15,7 +15,7 @@
     padding-bottom: 5.5rem;
   }
   @include large {
-    padding-bottom: 11.8rem;
+    padding-bottom: 13.2rem;
   }
 
   h2 {
@@ -31,7 +31,7 @@
 
   p {
     font-size: $x-small;
-    text-shadow: 1px 1px 10px #ffffff;
+    text-shadow: 1px 1px 17px #ffffff;
     @include x-small {
       font-size: $small-b;  
     }
@@ -194,14 +194,14 @@
       width: 29%;
     }
     @include x-large {
-      width: 22.5%;
+      width: 20%;
     }
   }
   .article-container {
     padding-top: 2.5rem;
   }
   p {
-    font-size: $small;
+    font-size: $medium;
   }
 }
 

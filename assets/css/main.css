@@ -9980,12 +9980,12 @@ P {
 }
 @media (min-width: 576px) {
   .servicio-1 {
-    height: 35vh;
+    height: 38vh;
   }
 }
 @media (min-width: 768px) {
   .servicio-1 {
-    height: 25vh;
+    height: 29vh;
   }
 }
 @media (min-width: 992px) {
@@ -10008,12 +10008,12 @@ P {
 }
 @media (min-width: 576px) {
   .servicio-2 {
-    height: 35vh;
+    height: 38vh;
   }
 }
 @media (min-width: 768px) {
   .servicio-2 {
-    height: 25vh;
+    height: 29vh;
   }
 }
 @media (min-width: 992px) {
@@ -10036,12 +10036,12 @@ P {
 }
 @media (min-width: 576px) {
   .servicio-3 {
-    height: 35vh;
+    height: 38vh;
   }
 }
 @media (min-width: 768px) {
   .servicio-3 {
-    height: 25vh;
+    height: 29vh;
   }
 }
 @media (min-width: 992px) {
@@ -10069,17 +10069,22 @@ P {
 }
 @media (min-width: 576px) {
   .article-why-us {
-    height: 130vh;
+    height: 145vh;
   }
 }
 @media (min-width: 768px) {
   .article-why-us {
-    height: 147vh;
+    height: 165vh;
   }
 }
 @media (min-width: 992px) {
   .article-why-us {
-    height: 87vh;
+    height: 100vh;
+  }
+}
+@media (min-width: 1200px) {
+  .article-why-us {
+    height: 78vh;
   }
 }
 
@@ -10163,7 +10168,7 @@ header {
 }
 @media (min-width: 992px) {
   .carousel-texto-home {
-    padding-bottom: 11.8rem;
+    padding-bottom: 13.2rem;
   }
 }
 .carousel-texto-home h2 {
@@ -10181,11 +10186,11 @@ header {
 }
 .carousel-texto-home p {
   font-size: 0.781em;
-  text-shadow: 1px 1px 10px #ffffff;
+  text-shadow: 1px 1px 17px #ffffff;
 }
 @media (min-width: 375px) {
   .carousel-texto-home p {
-    font-size: 0.813;
+    font-size: 0.8;
   }
 }
 @media (min-width: 576px) {
@@ -10322,7 +10327,7 @@ header {
 .article-servicios p {
   padding-top: 1rem;
   padding-bottom: 1.2rem;
-  font-size: 0.813;
+  font-size: 0.8;
   font-weight: 400;
 }
 
@@ -10334,7 +10339,7 @@ header {
   background-color: #F7F7F7;
   border: 1.5px solid #006384;
   color: #006384;
-  font-size: 0.813;
+  font-size: 0.8;
   font-weight: 600;
   padding: 0.5rem 1.5rem;
 }
@@ -10381,14 +10386,14 @@ header {
 }
 @media (min-width: 1200px) {
   .article-filter hr {
-    width: 22.5%;
+    width: 20%;
   }
 }
 .article-filter .article-container {
   padding-top: 2.5rem;
 }
 .article-filter p {
-  font-size: 0.938em;
+  font-size: 1em;
 }
 
 .article-confidencialidad-img {
