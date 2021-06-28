@@ -10064,7 +10064,7 @@ P {
 }
 @media (min-width: 375px) {
   .article-why-us {
-    height: 140vh;
+    height: 135vh;
   }
 }
 @media (min-width: 576px) {
@@ -10151,7 +10151,7 @@ header {
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
-    padding-right: 4.5em;
+    padding-right: 5em;
     padding-bottom: 0.6rem;
   }
 }
