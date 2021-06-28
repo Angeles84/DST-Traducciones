@@ -30,8 +30,11 @@
   }
 
   p {
-    font-size: $small-b;
-
+    font-size: $x-small;
+    
+    @include x-small {
+      font-size: $small-b;  
+    }
     @include small {
       font-size: $small;  
     } 
