@@ -10180,7 +10180,7 @@ header {
   }
 }
 .carousel-texto-home p {
-  font-size: 0.813;
+  font-size: 0.781em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home p {
@@ -10321,7 +10321,7 @@ header {
 .article-servicios p {
   padding-top: 1rem;
   padding-bottom: 1.2rem;
-  font-size: 0.781em;
+  font-size: 0.813;
   font-weight: 400;
 }
 
