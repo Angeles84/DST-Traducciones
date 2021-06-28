@@ -10056,7 +10056,7 @@ P {
 }
 
 .article-why-us {
-  height: 220vh;
+  height: 180vh;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10064,7 +10064,7 @@ P {
 }
 @media (min-width: 375px) {
   .article-why-us {
-    height: 160vh;
+    height: 155vh;
   }
 }
 @media (min-width: 576px) {
@@ -10142,9 +10142,15 @@ header {
 
 .carousel-texto-home {
   padding-bottom: 0.1rem;
-  padding-right: 2em;
+  padding-right: 1em;
 }
 @media (min-width: 375px) {
+  .carousel-texto-home {
+    padding-right: 3.5em;
+    padding-bottom: 0.6rem;
+  }
+}
+@media (min-width: 576px) {
   .carousel-texto-home {
     padding-right: 5.2em;
     padding-bottom: 0.6rem;
@@ -10161,11 +10167,11 @@ header {
   }
 }
 .carousel-texto-home h2 {
-  font-size: 1.125em;
+  font-size: 1.063em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home h2 {
-    font-size: 1.5em;
+    font-size: 1.125em;
   }
 }
 @media (min-width: 576px) {
@@ -10174,7 +10180,7 @@ header {
   }
 }
 .carousel-texto-home p {
-  font-size: 0.781em;
+  font-size: 0.813;
 }
 @media (min-width: 576px) {
   .carousel-texto-home p {

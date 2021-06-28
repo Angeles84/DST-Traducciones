@@ -1,9 +1,13 @@
 //Header
 .carousel-texto-home {
   padding-bottom: .1rem;
-  padding-right: 2em;
+  padding-right: 1em;
 
   @include x-small {
+    padding-right: 3.5em;
+    padding-bottom: .6rem;
+  }
+  @include small {
     padding-right: 5.2em;
     padding-bottom: .6rem;
   }
@@ -15,10 +19,10 @@
   }
 
   h2 {
-    font-size: $large-cel;
+    font-size: $header-cel;
 
     @include x-small {
-      font-size: $x-large;  
+      font-size: $large-cel;  
     }
     @include small {
       font-size: $xxx-large;  
@@ -26,7 +30,7 @@
   }
 
   p {
-    font-size: $x-small;
+    font-size: $small-b;
 
     @include small {
       font-size: $small;  
