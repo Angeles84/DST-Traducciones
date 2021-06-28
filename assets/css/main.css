@@ -10084,7 +10084,7 @@ P {
 }
 
 nav a {
-  font-size: 1.125em;
+  font-size: 1em;
   transition: all 0.8s ease;
   font-weight: 400;
 }
@@ -10094,7 +10094,7 @@ nav a {
   }
 }
 nav a .nav-logo {
-  width: 3.3rem;
+  width: 3.2rem;
 }
 @media (min-width: 576px) {
   nav a .nav-logo {
@@ -10142,7 +10142,7 @@ header {
 
 .carousel-texto-home {
   padding-bottom: 0.1rem;
-  padding-right: 2.3em;
+  padding-right: 2.2em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
