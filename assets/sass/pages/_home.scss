@@ -31,7 +31,7 @@
 
   p {
     font-size: $x-small;
-    
+    text-shadow: 1px 1px 10px #ffffff;
     @include x-small {
       font-size: $small-b;  
     }
@@ -72,12 +72,12 @@
   hr {
     background-color: $green;
     height: 0.092em;
-    width: 52%;
+    width: 60%;
     margin-top: 0.3rem;
     margin-bottom: 2rem;
     
     @include x-small {
-      width: 27%; 
+      width: 42%; 
     }
     @include small {
       width: 28%; 
@@ -176,12 +176,12 @@
   hr {
     background-color: $green;
     height: 0.092em;
-    width: 75%;
+    width: 85%;
     margin-top: 0.3rem;
     margin-bottom: 1.1rem;
 
     @include x-small {
-      width: 51%; 
+      width: 73%; 
     }
     @include small {
       width: 48%; 
