@@ -262,6 +262,7 @@ header .carousel-item img {
 //Testimonios
 .section-testimonios {
   padding-top: 3rem;
+  padding-bottom: 3rem;
 
   h2 {
     font-size: $xx-large;
@@ -275,13 +276,15 @@ header .carousel-item img {
     width: 60%;
     margin-top: 0.3rem;
     margin-bottom: .1rem;
+    margin-left: 0;
     
     @include x-small {
       width: 50%; 
       margin-bottom: 1.5rem;
     }
     @include small {
-      width: 95%; 
+      width: 95%;
+      margin: 0 auto; 
     }
     @include medium {
       width: 70%; 
