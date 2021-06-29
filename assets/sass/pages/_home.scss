@@ -214,6 +214,9 @@
   @include medium {
     width: 32%; 
   }
+  @include large {
+    width: 30%; 
+  }
 }
 
 .article-excelencia-img {
@@ -225,6 +228,9 @@
   @include medium {
     width: 40%; 
   }
+  @include large {
+    width: 38%; 
+  }
 }
 
 .article-rapidez-img {
@@ -235,6 +241,9 @@
   }
   @include medium {
     width: 45%; 
+  }
+  @include large {
+    width: 43%; 
   }
 }
 
