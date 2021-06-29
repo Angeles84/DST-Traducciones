@@ -9985,7 +9985,7 @@ P {
 }
 @media (min-width: 768px) {
   .servicio-1 {
-    height: 29vh;
+    height: 20vh;
   }
 }
 @media (min-width: 992px) {
@@ -10013,7 +10013,7 @@ P {
 }
 @media (min-width: 768px) {
   .servicio-2 {
-    height: 29vh;
+    height: 20vh;
   }
 }
 @media (min-width: 992px) {
@@ -10041,7 +10041,7 @@ P {
 }
 @media (min-width: 768px) {
   .servicio-3 {
-    height: 29vh;
+    height: 20vh;
   }
 }
 @media (min-width: 992px) {
@@ -10075,7 +10075,7 @@ P {
 }
 @media (min-width: 768px) {
   .article-why-us {
-    height: 165vh;
+    height: 95vh;
   }
 }
 @media (min-width: 992px) {
@@ -10342,7 +10342,7 @@ header {
   color: #006384;
   font-size: 0.8;
   font-weight: 600;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.7rem;
 }
 
 .article-filter {
@@ -10459,28 +10459,27 @@ header {
 }
 @media (min-width: 375px) {
   .section-testimonios hr {
-    width: 42%;
+    width: 50%;
   }
 }
 @media (min-width: 576px) {
   .section-testimonios hr {
-    width: 28%;
+    width: 95%;
   }
 }
 @media (min-width: 768px) {
   .section-testimonios hr {
-    width: 21%;
+    width: 70%;
   }
 }
 @media (min-width: 992px) {
   .section-testimonios hr {
-    margin-left: 0;
-    width: 31%;
+    width: 45%;
   }
 }
 @media (min-width: 1200px) {
   .section-testimonios hr {
-    width: 26%;
+    width: 43%;
   }
 }
 

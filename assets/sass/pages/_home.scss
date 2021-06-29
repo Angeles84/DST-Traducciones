@@ -157,7 +157,7 @@
   color: $esmerald;
   font-size: $small-b;
   font-weight: $semibold;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.7rem;
 }
 
 
@@ -256,20 +256,19 @@
     margin-bottom: 2rem;
     
     @include x-small {
-      width: 42%; 
+      width: 50%; 
     }
     @include small {
-      width: 28%; 
+      width: 95%; 
     }
     @include medium {
-      width: 21%; 
+      width: 70%; 
     }
     @include large {
-      margin-left: 0;
-      width: 31%;
+      width: 45%;
     }
     @include x-large {
-      width: 26%;
+      width: 43%;
     }
   }
 }
