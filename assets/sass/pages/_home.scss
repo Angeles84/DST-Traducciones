@@ -1,6 +1,6 @@
 //Header
 .carousel-texto-home {
-  padding-bottom: 2.5rem;
+  padding-bottom: 2.2rem;
   padding-right: 1em;
 
   @include x-small {
@@ -19,7 +19,7 @@
   }
 
   h2 {
-    font-size: $header-20;
+    font-size: $header-21;
 
     @include x-small {
       font-size: $large-cel;  
@@ -61,7 +61,7 @@
     margin-bottom: 4.5rem;  
   }
   img {
-  width: 85%;
+  width: 80%;
   border-radius: 0 60px 0 60px;
   box-shadow: 6px 8px 70px rgba(0, 0, 0,0.4);
 
@@ -163,7 +163,7 @@
   color: $esmerald;
   font-size: $small-b;
   font-weight: $semibold;
-  padding: 0.5rem 1.7rem;
+  padding: 0.7rem 1.7rem;
 }
 
 
