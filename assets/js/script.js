@@ -1,4 +1,4 @@
-/* Fix iOS 7 bug for -unit support */
+/* Fix iOS 7 bug for -unit support 
 var iOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/);
 
 if(iOS){
@@ -9,4 +9,4 @@ if(iOS){
  
     iosVhHeightBug();
     $(window).bind('resize', iosVhHeightBug);
-}
+}*/

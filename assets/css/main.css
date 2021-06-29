@@ -9963,7 +9963,7 @@ h4 {
 
 h5 {
   font-weight: 600;
-  font-size: 1.125em;
+  font-size: 1.188em;
 }
 
 P {
@@ -10056,16 +10056,17 @@ P {
 }
 
 .article-why-us {
-  height: 150vh;
+  height: 170vh;
   height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  object-fit: cover;
 }
 @media (min-width: 375px) {
   .article-why-us {
-    height: 140vh;
+    height: 145vh;
   }
 }
 @media (min-width: 576px) {
@@ -10080,7 +10081,7 @@ P {
 }
 @media (min-width: 992px) {
   .article-why-us {
-    height: 115vh;
+    height: 120vh;
   }
 }
 @media (min-width: 1200px) {
@@ -10147,13 +10148,13 @@ header {
 }
 
 .carousel-texto-home {
-  padding-bottom: 2rem;
+  padding-bottom: 2.3rem;
   padding-right: 1em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
     padding-right: 5em;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2.7rem;
   }
 }
 @media (min-width: 576px) {
@@ -10173,11 +10174,11 @@ header {
   }
 }
 .carousel-texto-home h2 {
-  font-size: 1.125em;
+  font-size: 1.188em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home h2 {
-    font-size: 1.125em;
+    font-size: 1.188em;
   }
 }
 @media (min-width: 576px) {
@@ -10206,7 +10207,7 @@ header {
 }
 
 .carousel-item img {
-  min-height: 220px;
+  min-height: 240px;
   object-fit: cover;
 }
 

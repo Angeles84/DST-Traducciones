@@ -64,15 +64,16 @@
 
 //Why Us
 .article-why-us {
-  height: 150vh;
+  height: 170vh;
   height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;  
+  object-fit: cover;
 
   @include x-small {
-    height: 140vh;  
+    height: 145vh;  
   } 
   @include small {
     height: 145vh;  
@@ -81,7 +82,7 @@
     height: 95vh;  
   }
   @include large {
-    height: 115vh;  
+    height: 120vh;  
   }
   @include x-large {
     height: 80vh;  
