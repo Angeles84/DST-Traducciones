@@ -10056,7 +10056,7 @@ P {
 }
 
 .article-why-us {
-  height: 210vh;
+  min-height: 800px;
   height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
@@ -10174,7 +10174,7 @@ header {
   }
 }
 .carousel-texto-home h2 {
-  font-size: 1.313em;
+  font-size: 1.375em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home h2 {
