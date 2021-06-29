@@ -9972,7 +9972,7 @@ P {
 }
 
 .servicio-1 {
-  height: 27vh;
+  height: 28vh;
   background-image: url(../img/servicio-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10000,7 +10000,7 @@ P {
 }
 
 .servicio-2 {
-  height: 27vh;
+  height: 28vh;
   background-image: url(../img/servicio-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10028,7 +10028,7 @@ P {
 }
 
 .servicio-3 {
-  height: 27vh;
+  height: 28vh;
   background-image: url(../img/servicio-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10057,6 +10057,7 @@ P {
 
 .article-why-us {
   height: 150vh;
+  min-height: 100%;
   height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
@@ -10080,7 +10081,7 @@ P {
 }
 @media (min-width: 992px) {
   .article-why-us {
-    height: 110vh;
+    height: 115vh;
   }
 }
 @media (min-width: 1200px) {
