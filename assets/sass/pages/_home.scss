@@ -320,7 +320,7 @@ header .carousel-item img {
 }
 
 .carousel-testimonios .carousel-item img {
-  height: 60%;
+  height: 65%;
   
   @include small {
     height: 25%; 
@@ -356,16 +356,16 @@ header .carousel-item img {
   hr {
     background-color: $green;
     height: 0.092em;
-    width: 60%;
+    width: 50%;
     margin-top: 0.3rem;
     margin-bottom: 2.5rem;
     margin-left: 0;
 
     @include x-small {
-      width: 73%; 
+      width: 52%; 
     }
     @include small {
-      width: 93%; 
+      width: 80%; 
     }
     @include medium {
       width: 69%; 

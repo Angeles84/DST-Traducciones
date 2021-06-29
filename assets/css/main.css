@@ -10553,7 +10553,7 @@ header .carousel-item img {
 }
 
 .carousel-testimonios .carousel-item img {
-  height: 60%;
+  height: 65%;
 }
 @media (min-width: 576px) {
   .carousel-testimonios .carousel-item img {
@@ -10592,19 +10592,19 @@ header .carousel-item img {
 .section-metodologia hr {
   background-color: #ADC4C8;
   height: 0.092em;
-  width: 60%;
+  width: 50%;
   margin-top: 0.3rem;
   margin-bottom: 2.5rem;
   margin-left: 0;
 }
 @media (min-width: 375px) {
   .section-metodologia hr {
-    width: 73%;
+    width: 52%;
   }
 }
 @media (min-width: 576px) {
   .section-metodologia hr {
-    width: 93%;
+    width: 80%;
   }
 }
 @media (min-width: 768px) {
