@@ -10056,7 +10056,7 @@ P {
 }
 
 .article-why-us {
-  height: 170vh;
+  height: 190vh;
   height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
@@ -10148,13 +10148,13 @@ header {
 }
 
 .carousel-texto-home {
-  padding-bottom: 2.3rem;
+  padding-bottom: 2.5rem;
   padding-right: 1em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
     padding-right: 5em;
-    padding-bottom: 2.7rem;
+    padding-bottom: 2.8rem;
   }
 }
 @media (min-width: 576px) {
@@ -10174,7 +10174,7 @@ header {
   }
 }
 .carousel-texto-home h2 {
-  font-size: 1.188em;
+  font-size: 1.25em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home h2 {
@@ -10187,7 +10187,7 @@ header {
   }
 }
 .carousel-texto-home p {
-  font-size: 0.794em;
+  font-size: 0.8;
   text-shadow: 1px 1px 17px #ffffff;
 }
 @media (min-width: 375px) {
@@ -10334,7 +10334,7 @@ header {
 .article-servicios p {
   padding-top: 1rem;
   padding-bottom: 1.2rem;
-  font-size: 0.794em;
+  font-size: 0.8;
   font-weight: 400;
 }
 
