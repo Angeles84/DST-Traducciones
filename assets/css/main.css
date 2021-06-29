@@ -10056,7 +10056,7 @@ P {
 }
 
 .article-why-us {
-  min-height: 800px;
+  height: 190vh;
   height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
@@ -10175,6 +10175,7 @@ header {
 }
 .carousel-texto-home h2 {
   font-size: 1.375em;
+  text-shadow: 1px 1px 17px #ffffff;
 }
 @media (min-width: 375px) {
   .carousel-texto-home h2 {
@@ -10404,7 +10405,7 @@ header {
 }
 
 .article-confidencialidad-img {
-  width: 20%;
+  width: 10%;
 }
 @media (min-width: 375px) {
   .article-confidencialidad-img {
@@ -10423,7 +10424,7 @@ header {
 }
 
 .article-excelencia-img {
-  width: 28%;
+  width: 18%;
 }
 @media (min-width: 375px) {
   .article-excelencia-img {
@@ -10442,7 +10443,7 @@ header {
 }
 
 .article-rapidez-img {
-  width: 33%;
+  width: 23%;
 }
 @media (min-width: 375px) {
   .article-rapidez-img {
