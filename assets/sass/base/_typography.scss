@@ -30,6 +30,14 @@ h5 {
   font-size: $large-cel;
 }
 
+h6 {
+  font-weight: $regular;
+  font-size: 1.125em;
+  @include medium {
+    font-size: $met-21;
+  }
+}
+
 P {
   font-weight: $regular;
   font-size: $medium;

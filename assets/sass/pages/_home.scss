@@ -45,10 +45,9 @@
   }  
 }
 
-.carousel-item img {
+header .carousel-item img {
   min-height: 240px;
   object-fit: cover;
-
 }
 
 //Nosotros
@@ -64,7 +63,7 @@
   img {
   width: 80%;
   border-radius: 0 60px 0 60px;
-  box-shadow: 6px 8px 70px rgba(0, 0, 0,0.4);
+  box-shadow: 6px 8px 60px rgba(0, 0, 0,0.4);
 
   @include medium {
     width: 65%; 
@@ -103,6 +102,10 @@
   a {
     color: $esmerald;
   } 
+  p {
+    color:#000000;
+    line-height: 25px;
+  }
 }
 
 
@@ -150,7 +153,8 @@
     padding-top: 1rem;
     padding-bottom: 1.2rem;
     font-size: $small-b;
-    font-weight: $regular;
+    font-weight: $light-300;
+    
   }
 }
 
@@ -209,12 +213,12 @@
   }
   p {
     font-size: $medium;
+    font-weight: $regular;
   }
 }
 
-
 .article-confidencialidad-img {
-  width: 10%;
+  width: 20%;
 
   @include x-small {
     width: 30%; 
@@ -228,7 +232,7 @@
 }
 
 .article-excelencia-img {
-  width: 18%;
+  width: 28%;
 
   @include x-small {
     width: 38%; 
@@ -242,7 +246,7 @@
 }
 
 .article-rapidez-img {
-  width: 23%;
+  width: 33%;
 
   @include x-small {
     width: 43%; 
@@ -270,10 +274,11 @@
     height: 0.092em;
     width: 60%;
     margin-top: 0.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: .1rem;
     
     @include x-small {
       width: 50%; 
+      margin-bottom: 1.5rem;
     }
     @include small {
       width: 95%; 
@@ -288,4 +293,106 @@
       width: 43%;
     }
   }
+  p {
+    line-height: 25px;
+  }
+}
+
+.carousel-testimonios {
+  width: 95%;
+  margin: 0 auto;
+
+  @include small {
+    width: 100%; 
+  }
+  @include medium {
+    width: 95%; 
+  }
+  @include large {
+    width: 75%;
+  }
+  @include x-large {
+    width: 70%;
+  }
+}
+
+.carousel-testimonios .carousel-item img {
+  height: 60%;
+  
+  @include small {
+    height: 25%; 
+    padding-left: 3rem;
+  }
+  @include medium {
+    height: 30%; 
+  }
+  @include large {
+    height: 45%;
+  }
+}
+
+.padre-comillas {
+  display: flex;
+
+  img {
+    align-self: flex-end;
+
+    @include small {
+      align-self: flex-start;
+    }
+  }
+}
+
+
+//Metodología de trabajo
+.section-metodologia {
+  background-color: $light-gray;
+  padding-top: 3.5rem;
+  padding-bottom: 4rem;
+
+  hr {
+    background-color: $green;
+    height: 0.092em;
+    width: 60%;
+    margin-top: 0.3rem;
+    margin-bottom: 2.5rem;
+    margin-left: 0;
+
+    @include x-small {
+      width: 73%; 
+    }
+    @include small {
+      width: 93%; 
+    }
+    @include medium {
+      width: 69%; 
+      margin-bottom: 4.5rem;
+    }
+    @include large {
+      width: 51%;
+    }
+    @include x-large {
+      width: 42.7%;
+    }
+  }
+  
+  .metodologia-foto {
+    width: 90%;
+    border-radius: 0 60px 0 60px;
+    box-shadow: 6px 8px 60px rgba(0, 0, 0,0.4);
+  
+    @include medium {
+      width: 100%; 
+    }
+    @include large {
+      width: 100%; 
+    }
+    @include x-large {
+      width: 95%; 
+    }
+  }
+}
+
+.metodologia-row-1 {
+  padding-bottom: 2rem;
 }

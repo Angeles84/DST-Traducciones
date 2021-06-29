@@ -9966,13 +9966,23 @@ h5 {
   font-size: 1.188em;
 }
 
+h6 {
+  font-weight: 400;
+  font-size: 1.125em;
+}
+@media (min-width: 768px) {
+  h6 {
+    font-size: 1.313em;
+  }
+}
+
 P {
   font-weight: 400;
   font-size: 1em;
 }
 
 .servicio-1 {
-  height: 28vh;
+  height: 29vh;
   background-image: url(../img/servicio-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10000,7 +10010,7 @@ P {
 }
 
 .servicio-2 {
-  height: 28vh;
+  height: 29vh;
   background-image: url(../img/servicio-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10028,7 +10038,7 @@ P {
 }
 
 .servicio-3 {
-  height: 28vh;
+  height: 29vh;
   background-image: url(../img/servicio-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -10207,7 +10217,7 @@ header {
   }
 }
 
-.carousel-item img {
+header .carousel-item img {
   min-height: 240px;
   object-fit: cover;
 }
@@ -10226,7 +10236,7 @@ header {
 .section-about img {
   width: 80%;
   border-radius: 0 60px 0 60px;
-  box-shadow: 6px 8px 70px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 8px 60px rgba(0, 0, 0, 0.4);
 }
 @media (min-width: 768px) {
   .section-about img {
@@ -10278,6 +10288,10 @@ header {
 }
 .section-about a {
   color: #006384;
+}
+.section-about p {
+  color: #000000;
+  line-height: 25px;
 }
 
 .article-servicios {
@@ -10336,7 +10350,7 @@ header {
   padding-top: 1rem;
   padding-bottom: 1.2rem;
   font-size: 0.8;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .servicio-1, .servicio-2, .servicio-3 {
@@ -10402,10 +10416,11 @@ header {
 }
 .article-filter p {
   font-size: 1em;
+  font-weight: 400;
 }
 
 .article-confidencialidad-img {
-  width: 10%;
+  width: 20%;
 }
 @media (min-width: 375px) {
   .article-confidencialidad-img {
@@ -10424,7 +10439,7 @@ header {
 }
 
 .article-excelencia-img {
-  width: 18%;
+  width: 28%;
 }
 @media (min-width: 375px) {
   .article-excelencia-img {
@@ -10443,7 +10458,7 @@ header {
 }
 
 .article-rapidez-img {
-  width: 23%;
+  width: 33%;
 }
 @media (min-width: 375px) {
   .article-rapidez-img {
@@ -10477,11 +10492,12 @@ header {
   height: 0.092em;
   width: 60%;
   margin-top: 0.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.1rem;
 }
 @media (min-width: 375px) {
   .section-testimonios hr {
     width: 50%;
+    margin-bottom: 1.5rem;
   }
 }
 @media (min-width: 576px) {
@@ -10503,6 +10519,130 @@ header {
   .section-testimonios hr {
     width: 43%;
   }
+}
+.section-testimonios p {
+  line-height: 25px;
+}
+
+.carousel-testimonios {
+  width: 95%;
+  margin: 0 auto;
+}
+@media (min-width: 576px) {
+  .carousel-testimonios {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-testimonios {
+    width: 95%;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-testimonios {
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-testimonios {
+    width: 70%;
+  }
+}
+
+.carousel-testimonios .carousel-item img {
+  height: 60%;
+}
+@media (min-width: 576px) {
+  .carousel-testimonios .carousel-item img {
+    height: 25%;
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-testimonios .carousel-item img {
+    height: 30%;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-testimonios .carousel-item img {
+    height: 45%;
+  }
+}
+
+.padre-comillas {
+  display: flex;
+}
+.padre-comillas img {
+  align-self: flex-end;
+}
+@media (min-width: 576px) {
+  .padre-comillas img {
+    align-self: flex-start;
+  }
+}
+
+.section-metodologia {
+  background-color: #F7F7F7;
+  padding-top: 3.5rem;
+  padding-bottom: 4rem;
+}
+.section-metodologia hr {
+  background-color: #ADC4C8;
+  height: 0.092em;
+  width: 60%;
+  margin-top: 0.3rem;
+  margin-bottom: 2.5rem;
+  margin-left: 0;
+}
+@media (min-width: 375px) {
+  .section-metodologia hr {
+    width: 73%;
+  }
+}
+@media (min-width: 576px) {
+  .section-metodologia hr {
+    width: 93%;
+  }
+}
+@media (min-width: 768px) {
+  .section-metodologia hr {
+    width: 69%;
+    margin-bottom: 4.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .section-metodologia hr {
+    width: 51%;
+  }
+}
+@media (min-width: 1200px) {
+  .section-metodologia hr {
+    width: 42.7%;
+  }
+}
+.section-metodologia .metodologia-foto {
+  width: 90%;
+  border-radius: 0 60px 0 60px;
+  box-shadow: 6px 8px 60px rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 768px) {
+  .section-metodologia .metodologia-foto {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .section-metodologia .metodologia-foto {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .section-metodologia .metodologia-foto {
+    width: 95%;
+  }
+}
+
+.metodologia-row-1 {
+  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
