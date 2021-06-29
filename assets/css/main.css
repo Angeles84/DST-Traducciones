@@ -10057,7 +10057,6 @@ P {
 
 .article-why-us {
   height: 150vh;
-  min-height: 100%;
   height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
@@ -10148,19 +10147,19 @@ header {
 }
 
 .carousel-texto-home {
-  padding-bottom: 0.1rem;
+  padding-bottom: 2rem;
   padding-right: 1em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
     padding-right: 5em;
-    padding-bottom: 0.6rem;
+    padding-bottom: 2.5rem;
   }
 }
 @media (min-width: 576px) {
   .carousel-texto-home {
     padding-right: 5.2em;
-    padding-bottom: 0.6rem;
+    padding-bottom: 3rem;
   }
 }
 @media (min-width: 768px) {
@@ -10174,7 +10173,7 @@ header {
   }
 }
 .carousel-texto-home h2 {
-  font-size: 1.063em;
+  font-size: 1.125em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home h2 {
@@ -10204,6 +10203,11 @@ header {
   .carousel-texto-home p {
     font-size: 1em;
   }
+}
+
+.carousel-item img {
+  min-height: 220px;
+  object-fit: cover;
 }
 
 .section-about {

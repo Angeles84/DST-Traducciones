@@ -1,15 +1,15 @@
 //Header
 .carousel-texto-home {
-  padding-bottom: .1rem;
+  padding-bottom: 2rem;
   padding-right: 1em;
 
   @include x-small {
     padding-right: 5em;
-    padding-bottom: .6rem;
+    padding-bottom: 2.5rem;
   }
   @include small {
     padding-right: 5.2em;
-    padding-bottom: .6rem;
+    padding-bottom: 3rem;
   }
   @include medium {
     padding-bottom: 5.5rem;
@@ -19,7 +19,7 @@
   }
 
   h2 {
-    font-size: $header-cel;
+    font-size: $large-cel;
 
     @include x-small {
       font-size: $large-cel;  
@@ -42,6 +42,12 @@
       font-size: $medium;  
     }
   }  
+}
+
+.carousel-item img {
+  min-height: 220px;
+  object-fit: cover;
+
 }
 
 //Nosotros
