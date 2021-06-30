@@ -10076,7 +10076,7 @@ P {
 }
 
 .article-why-us {
-  height: 240vh;
+  height: 190px;
   height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
@@ -10735,6 +10735,9 @@ header .carousel-item img {
   width: 2.6rem;
 }
 
+.section-location .img-location {
+  width: 98%;
+}
 @media (min-width: 768px) {
   .section-location .img-location {
     width: 100%;

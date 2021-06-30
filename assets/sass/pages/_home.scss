@@ -436,6 +436,7 @@ header .carousel-item img {
   width: 2.6rem;
 }
 .section-location .img-location {
+  width: 98%;
   @include medium {
     width: 100%; 
   }
