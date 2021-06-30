@@ -10530,25 +10530,28 @@ header .carousel-item img {
 .carousel-testimonios {
   width: 95%;
   margin: 0 auto;
+  padding-top: 0;
 }
 @media (min-width: 576px) {
   .carousel-testimonios {
     width: 100%;
+    padding-top: 3.5rem;
   }
 }
 @media (min-width: 768px) {
   .carousel-testimonios {
-    width: 95%;
+    width: 85%;
   }
 }
 @media (min-width: 992px) {
   .carousel-testimonios {
-    width: 75%;
+    width: 70%;
+    padding-top: 4rem;
   }
 }
 @media (min-width: 1200px) {
   .carousel-testimonios {
-    width: 70%;
+    width: 65%;
   }
 }
 
@@ -10558,7 +10561,7 @@ header .carousel-item img {
 @media (min-width: 576px) {
   .carousel-testimonios .carousel-item img {
     height: 25%;
-    padding-left: 3rem;
+    padding-left: 3.5rem;
   }
 }
 @media (min-width: 768px) {

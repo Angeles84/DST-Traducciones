@@ -304,27 +304,30 @@ header .carousel-item img {
 .carousel-testimonios {
   width: 95%;
   margin: 0 auto;
+  padding-top: 0;
 
   @include small {
     width: 100%; 
+    padding-top: 3.5rem;
   }
   @include medium {
-    width: 95%; 
+    width: 85%; 
   }
   @include large {
-    width: 75%;
+    width: 70%;
+    padding-top: 4rem;
   }
   @include x-large {
-    width: 70%;
+    width: 65%;
   }
 }
 
 .carousel-testimonios .carousel-item img {
-  height: 65%;
+ height: 65%;
   
   @include small {
     height: 25%; 
-    padding-left: 3rem;
+    padding-left: 3.5rem;
   }
   @include medium {
     height: 30%; 
@@ -333,6 +336,7 @@ header .carousel-item img {
     height: 45%;
   }
 }
+
 
 .padre-comillas {
   display: flex;
