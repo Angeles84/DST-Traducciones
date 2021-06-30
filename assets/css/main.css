@@ -10491,14 +10491,14 @@ header .carousel-item img {
 .section-testimonios hr {
   background-color: #ADC4C8;
   height: 0.092em;
-  width: 60%;
+  width: 65%;
   margin-top: 0.3rem;
   margin-bottom: 0.1rem;
-  margin-left: 0;
+  margin-left: 0.4em;
 }
 @media (min-width: 375px) {
   .section-testimonios hr {
-    width: 50%;
+    width: 65%;
     margin-bottom: 1.5rem;
   }
 }
