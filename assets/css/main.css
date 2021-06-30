@@ -10217,7 +10217,12 @@ footer .grey {
   font-weight: 400;
 }
 footer .footer-logo {
-  width: 7rem;
+  width: 5rem;
+}
+@media (min-width: 576px) {
+  footer .footer-logo {
+    width: 7rem;
+  }
 }
 
 footer a {
