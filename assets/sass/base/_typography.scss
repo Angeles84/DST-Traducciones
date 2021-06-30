@@ -17,6 +17,14 @@ h2 {
   font-size: $xxx-large;
 }
 
+h3 {
+  font-weight: $semibold;
+  font-size: $large-23;
+  @include small {
+    font-size: $x-large;
+  }
+}
+
 h4 {
   font-weight: $semibold;
   font-size: $large;

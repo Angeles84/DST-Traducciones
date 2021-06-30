@@ -19,7 +19,7 @@
   }
 
   h2 {
-    font-size: $header-22;
+    font-size: $large;
     text-shadow: 1px 1px 17px #ffffff;
 
     @include x-small {
@@ -402,4 +402,47 @@ header .carousel-item img {
 
 .metodologia-row-1 {
   padding-bottom: 2rem;
+}
+
+//Ubicación
+.section-location  hr {
+    background-color: $green;
+    height: 0.092em;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 2.7rem;
+    margin-left: 0;
+
+    @include x-small {
+      width: 45%;
+      margin-bottom: 3.2rem; 
+    }
+    @include small {
+      width: 40%; 
+    }
+    @include medium {
+      width: 22%; 
+      margin-bottom: 3rem;
+    }
+    @include large {
+      width: 16%;
+    }
+    @include x-large {
+      width: 13.5%;
+    }
+}
+
+.section-location  .location-iconos {
+  width: 2.6rem;
+}
+.section-location .img-location {
+  @include medium {
+    width: 100%; 
+  }
+  @include large {
+    width: 85%; 
+  }
+  @include x-large {
+    width: 77%; 
+  }
 }
