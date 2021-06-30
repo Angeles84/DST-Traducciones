@@ -10146,7 +10146,7 @@ P {
 
 nav a {
   font-size: 1.063em;
-  transition: all 0.8s ease;
+  transition: all 0.6s ease;
   font-weight: 400;
 }
 @media (min-width: 576px) {
@@ -10199,6 +10199,60 @@ header {
   header {
     padding-top: 4.5rem;
   }
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 2.2rem;
+}
+footer h3 {
+  font-family: "eurostiletmedregular";
+}
+footer .green {
+  color: #006384;
+  font-weight: 700;
+}
+footer .grey {
+  color: #696969;
+  font-weight: 400;
+}
+footer .footer-logo {
+  width: 7rem;
+}
+
+footer a {
+  margin-bottom: 0.4rem;
+  font-weight: 300;
+  transition: all 0.6s ease;
+  font-weight: 400;
+  color: #262626;
+}
+footer a:hover {
+  color: #89949e;
+  text-decoration: none;
+}
+
+footer p {
+  margin-bottom: 0.4rem;
+}
+
+footer img {
+  width: 2rem;
+}
+
+.footer-fondo {
+  background-color: #F7F7F7;
+}
+.footer-fondo p {
+  font-weight: 300;
+}
+
+.footer-col-2 {
+  padding-left: 4rem;
+}
+
+.footer-col-3 {
+  padding-left: 3rem;
 }
 
 .servicios-button {

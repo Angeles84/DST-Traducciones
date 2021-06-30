@@ -1,0 +1,53 @@
+footer {
+  padding-top: 3rem;
+  padding-bottom: 2.2rem;
+  h3 {
+    font-family: 'eurostiletmedregular';;
+  }
+  .green {
+    color: $esmerald;
+    font-weight: $bold;
+  }
+  .grey {
+    color: $gray;
+    font-weight: $regular;
+  }
+  .footer-logo {
+    width: 7rem;
+  }
+}
+
+footer a {
+  margin-bottom: 0.4rem;
+  font-weight: $light-300;
+  transition: all 0.6s ease;
+  font-weight: $regular;
+  color: $dark-gray;
+  &:hover {
+    color: $gray-green;
+    text-decoration: none;
+  }
+}
+
+footer p {
+  margin-bottom: 0.4rem;
+}
+
+footer img {
+  width: 2rem;
+}
+
+.footer-fondo {
+  background-color: $light-gray;
+  p {
+    font-weight: $light-300;
+  }
+}
+
+.footer-col-2 {
+  padding-left: 4rem;
+}
+
+.footer-col-3 {
+  padding-left: 3rem;
+}
