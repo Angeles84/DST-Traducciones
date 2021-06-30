@@ -10120,7 +10120,7 @@ P {
 }
 @media (min-width: 375px) {
   .section-location {
-    height: 80vh;
+    height: 106vh;
   }
 }
 @media (min-width: 576px) {
@@ -10199,6 +10199,15 @@ header {
   header {
     padding-top: 4.5rem;
   }
+}
+
+.servicios-button {
+  background-color: #F7F7F7;
+  border: 1.5px solid #006384;
+  color: #006384;
+  font-size: 0.8;
+  font-weight: 600;
+  padding: 0.7rem 1.7rem;
 }
 
 .carousel-texto-home {
@@ -10399,15 +10408,6 @@ header .carousel-item img {
 
 .servicio-1, .servicio-2, .servicio-3 {
   display: flex;
-}
-
-.servicios-button {
-  background-color: #F7F7F7;
-  border: 1.5px solid #006384;
-  color: #006384;
-  font-size: 0.8;
-  font-weight: 600;
-  padding: 0.7rem 1.7rem;
 }
 
 .article-filter {
@@ -10698,14 +10698,14 @@ header .carousel-item img {
 .section-location hr {
   background-color: #ADC4C8;
   height: 0.092em;
-  width: 50%;
+  width: 59%;
   margin-top: 0.3rem;
   margin-bottom: 2.7rem;
   margin-left: 0;
 }
 @media (min-width: 375px) {
   .section-location hr {
-    width: 45%;
+    width: 56%;
     margin-bottom: 3.2rem;
   }
 }
@@ -10727,7 +10727,7 @@ header .carousel-item img {
 }
 @media (min-width: 1200px) {
   .section-location hr {
-    width: 13.5%;
+    width: 16.7%;
   }
 }
 
@@ -10737,6 +10737,11 @@ header .carousel-item img {
 
 .section-location .img-location {
   width: 98%;
+}
+@media (min-width: 375px) {
+  .section-location .img-location {
+    padding-top: 0.7rem;
+  }
 }
 @media (min-width: 768px) {
   .section-location .img-location {
