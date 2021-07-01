@@ -151,7 +151,7 @@ header .carousel-item img {
   }
   p {
     padding-top: 1rem;
-    padding-bottom: 1.2rem;
+    padding-bottom: 1.5rem;
     font-size: $small-b;
     font-weight: $light-300;
     
@@ -424,8 +424,18 @@ header .carousel-item img {
     }
 }
 
-.section-location  .location-iconos {
-  width: 2.6rem;
+.location-icono-map , .location-icono-phone {
+  height: 1.8rem;
+  @include medium {
+    height: 2.6rem;
+  }
+}
+
+.location-icono-sobre {
+  height: 1.4rem;
+  @include medium {
+    height: 2.1rem;
+  }
 }
 .section-location .img-location {
   width: 98%;
@@ -441,4 +451,17 @@ header .carousel-item img {
   @include x-large {
     width: 77%; 
   }
+}
+
+.section-location h4 {
+  font-weight: $regular;
+  font-size: $large-cel;    
+  @include medium {
+    font-size: $x-large;
+  }
+}
+
+.section-location .location-flex {
+  display: flex;
+  flex-wrap: nowrap;
 }

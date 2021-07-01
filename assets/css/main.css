@@ -10217,7 +10217,7 @@ footer .grey {
   font-weight: 400;
 }
 footer .footer-logo {
-  width: 5rem;
+  width: 5.5rem;
 }
 @media (min-width: 576px) {
   footer .footer-logo {
@@ -10266,7 +10266,7 @@ footer img {
   color: #006384;
   font-size: 0.8;
   font-weight: 600;
-  padding: 0.7rem 1.7rem;
+  padding: 0.7rem 1.9rem;
 }
 
 .carousel-texto-home {
@@ -10460,7 +10460,7 @@ header .carousel-item img {
 }
 .article-servicios p {
   padding-top: 1rem;
-  padding-bottom: 1.2rem;
+  padding-bottom: 1.5rem;
   font-size: 0.8;
   font-weight: 300;
 }
@@ -10790,8 +10790,22 @@ header .carousel-item img {
   }
 }
 
-.section-location .location-iconos {
-  width: 2.6rem;
+.location-icono-map, .location-icono-phone {
+  height: 1.8rem;
+}
+@media (min-width: 768px) {
+  .location-icono-map, .location-icono-phone {
+    height: 2.6rem;
+  }
+}
+
+.location-icono-sobre {
+  height: 1.4rem;
+}
+@media (min-width: 768px) {
+  .location-icono-sobre {
+    height: 2.1rem;
+  }
 }
 
 .section-location .img-location {
@@ -10816,6 +10830,21 @@ header .carousel-item img {
   .section-location .img-location {
     width: 77%;
   }
+}
+
+.section-location h4 {
+  font-weight: 400;
+  font-size: 1.188em;
+}
+@media (min-width: 768px) {
+  .section-location h4 {
+    font-size: 1.5em;
+  }
+}
+
+.section-location .location-flex {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /*# sourceMappingURL=main.css.map */
