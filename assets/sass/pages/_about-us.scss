@@ -1,0 +1,140 @@
+.carousel-texto-us {
+  padding-right: 1em;
+
+  @include x-small {
+    padding-right: 5em;
+    padding-bottom: 2.8rem;
+  }
+  @include small {
+    padding-right: 5.2em;
+    padding-bottom: 1.6rem;
+  }
+  @include medium {
+    padding-bottom: 3.2rem;
+  }
+  @include large {
+    padding-bottom: 5.2rem;
+  }
+  @include x-large {
+    padding-bottom: 7.7rem;
+  }
+
+  h2 {
+    font-size: $large;
+    text-shadow: 1px 1px 17px #ffffff;
+
+    @include x-small {
+      font-size: $large-cel;  
+    }
+    @include small {
+      font-size: $xxx-large;  
+    } 
+  }
+
+  p {
+    font-size: $small-b;
+    text-shadow: 1px 1px 17px #ffffff;
+    @include x-small {
+      font-size: $small-b;  
+    }
+    @include small {
+      font-size: $small;  
+    } 
+    @include medium {
+      font-size: $medium;  
+    }
+    @include x-large {
+      font-size: $header-cel;  
+    }
+  } 
+}
+
+
+.section-about-us {
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  color: $dark-gray;
+
+  @include small {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;  
+  }
+  .about-us-img-1 {
+    width: 80%;
+    border-radius: 0 60px 0 60px;
+    box-shadow: 6px 8px 60px rgba(0, 0, 0,0.4);
+  
+    @include medium {
+      width: 65%; 
+    }
+    @include large {
+      width: 100%;
+    }
+    @include x-large {
+      width: 100%; 
+    }
+  }
+  hr {
+    background-color: $green;
+    height: 0.092em;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+    
+    @include x-small {
+      width: 40%; 
+    }
+    @include small {
+      width: 27%; 
+    }
+    @include medium {
+      width: 20%; 
+    }
+    @include large {
+      margin-left: 0;
+      width: 14.5%;
+      margin-bottom: 3rem;
+    }
+    @include x-large {
+      width: 12.3%;
+    }
+  } 
+  a {
+    color: $esmerald;
+    transition: all 0.6s ease;
+    &:hover {
+      text-decoration: none;
+      color: $turquesa;
+    }
+  } 
+  p {
+    line-height: 25px;
+  }
+}
+.section-about-us .about-us-img-2 {
+  width: 80%;
+  border-radius: 0 60px 0 60px;
+  box-shadow: 6px 8px 60px rgba(0, 0, 0,0.4);
+
+  @include medium {
+    width: 65%; 
+  }
+  @include large {
+    width: 68%;
+  }
+  @include x-large {
+    width: 65%; 
+  }
+}
+
+.about-us-p-borde {
+  @include large {
+    border-bottom: 1.5px solid $green;
+    border-right: 1.5px solid $green;
+    margin-top: 0.5rem;
+  }
+  @include x-large {
+    margin-top: 2.5rem;
+  }
+}
+

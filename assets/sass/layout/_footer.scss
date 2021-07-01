@@ -33,15 +33,21 @@ footer a {
   }
 }
 
+footer h5 {
+  font-size: $header-cel; 
+  font-weight: $semibold; 
+}
+
 footer p {
   margin-bottom: 0.4rem;
+  font-size: $small;
 }
 
 footer .footer-phone {
-  height: 1.7rem;
+  height: 1.6rem;
 }
 footer .footer-sobre {
-  height: 1.2rem;
+  height: 1.1rem;
 }
 
 .footer-fondo {
@@ -61,5 +67,9 @@ footer .footer-sobre {
 
 .footer-flex {
   display: flex;
+  flex-wrap: nowrap;
+}
 
+.footer-about-us {
+  border-top: 1.5px solid $light-gray-green;
 }
