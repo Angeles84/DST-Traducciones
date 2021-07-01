@@ -15,7 +15,7 @@
     padding-bottom: 5.5rem;
   }
   @include large {
-    padding-bottom: 13.2rem;
+    padding-bottom: 13rem;
   }
 
   h2 {
@@ -41,6 +41,9 @@
     } 
     @include medium {
       font-size: $medium;  
+    }
+    @include x-large {
+      font-size: $header-cel;  
     }
   }  
 }
@@ -210,10 +213,10 @@ header .carousel-item img {
 }
 
 .article-confidencialidad-img {
-  width: 20%;
+  width: 19%;
 
   @include x-small {
-    width: 30%; 
+    width: 28%; 
   }
   @include medium {
     width: 32%; 
@@ -224,10 +227,10 @@ header .carousel-item img {
 }
 
 .article-excelencia-img {
-  width: 28%;
+  width: 27%;
 
   @include x-small {
-    width: 38%; 
+    width: 36%; 
   }
   @include medium {
     width: 40%; 
@@ -238,10 +241,10 @@ header .carousel-item img {
 }
 
 .article-rapidez-img {
-  width: 33%;
+  width: 32%;
 
   @include x-small {
-    width: 43%; 
+    width: 41%; 
   }
   @include medium {
     width: 45%; 
@@ -285,7 +288,7 @@ header .carousel-item img {
       width: 45%;
     }
     @include x-large {
-      width: 43%;
+      width: 44%;
     }
   }
   p {
@@ -373,7 +376,10 @@ header .carousel-item img {
     @include x-large {
       width: 42.7%;
     }
+
   }
+
+ 
   
   .metodologia-foto {
     width: 90%;
@@ -417,7 +423,7 @@ header .carousel-item img {
       margin-bottom: 3rem;
     }
     @include large {
-      width: 16%;
+      width: 20%;
     }
     @include x-large {
       width: 16.7%;
@@ -427,23 +433,24 @@ header .carousel-item img {
 .location-icono-map , .location-icono-phone {
   height: 1.8rem;
   @include medium {
-    height: 2.6rem;
+    height: 2.2rem;
   }
 }
 
 .location-icono-sobre {
   height: 1.4rem;
   @include medium {
-    height: 2.1rem;
+    height: 1.5rem;
   }
 }
 .section-location .img-location {
   width: 98%;
   @include x-small {
-    padding-top: 0.7rem;
+    padding-top: 0.9rem;
   }
   @include medium {
     width: 100%; 
+    padding-top: 0;
   }
   @include large {
     width: 85%; 
@@ -457,8 +464,12 @@ header .carousel-item img {
   font-weight: $regular;
   font-size: $large-cel;    
   @include medium {
-    font-size: $x-large;
+    font-size: $large-23;
   }
+}
+
+.section-location p {
+  font-weight: $light-300;
 }
 
 .section-location .location-flex {

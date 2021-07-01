@@ -13,7 +13,7 @@ footer {
     font-weight: $regular;
   }
   .footer-logo {
-    width: 5.5rem;
+    width: 6rem;
 
     @include small {
       width: 7rem;  
@@ -37,8 +37,11 @@ footer p {
   margin-bottom: 0.4rem;
 }
 
-footer img {
-  width: 2rem;
+footer .footer-phone {
+  height: 1.7rem;
+}
+footer .footer-sobre {
+  height: 1.2rem;
 }
 
 .footer-fondo {
@@ -54,4 +57,9 @@ footer img {
 
 .footer-col-3 {
   padding-left: 3rem;
+}
+
+.footer-flex {
+  display: flex;
+
 }

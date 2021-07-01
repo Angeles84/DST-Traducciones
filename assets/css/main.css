@@ -10120,7 +10120,7 @@ P {
 }
 @media (min-width: 375px) {
   .section-location {
-    height: 106vh;
+    height: 103vh;
   }
 }
 @media (min-width: 576px) {
@@ -10217,7 +10217,7 @@ footer .grey {
   font-weight: 400;
 }
 footer .footer-logo {
-  width: 5.5rem;
+  width: 6rem;
 }
 @media (min-width: 576px) {
   footer .footer-logo {
@@ -10241,8 +10241,12 @@ footer p {
   margin-bottom: 0.4rem;
 }
 
-footer img {
-  width: 2rem;
+footer .footer-phone {
+  height: 1.7rem;
+}
+
+footer .footer-sobre {
+  height: 1.2rem;
 }
 
 .footer-fondo {
@@ -10258,6 +10262,10 @@ footer img {
 
 .footer-col-3 {
   padding-left: 3rem;
+}
+
+.footer-flex {
+  display: flex;
 }
 
 .servicios-button {
@@ -10292,7 +10300,7 @@ footer img {
 }
 @media (min-width: 992px) {
   .carousel-texto-home {
-    padding-bottom: 13.2rem;
+    padding-bottom: 13rem;
   }
 }
 .carousel-texto-home h2 {
@@ -10326,6 +10334,11 @@ footer img {
 @media (min-width: 768px) {
   .carousel-texto-home p {
     font-size: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-texto-home p {
+    font-size: 1.063em;
   }
 }
 
@@ -10523,11 +10536,11 @@ header .carousel-item img {
 }
 
 .article-confidencialidad-img {
-  width: 20%;
+  width: 19%;
 }
 @media (min-width: 375px) {
   .article-confidencialidad-img {
-    width: 30%;
+    width: 28%;
   }
 }
 @media (min-width: 768px) {
@@ -10542,11 +10555,11 @@ header .carousel-item img {
 }
 
 .article-excelencia-img {
-  width: 28%;
+  width: 27%;
 }
 @media (min-width: 375px) {
   .article-excelencia-img {
-    width: 38%;
+    width: 36%;
   }
 }
 @media (min-width: 768px) {
@@ -10561,11 +10574,11 @@ header .carousel-item img {
 }
 
 .article-rapidez-img {
-  width: 33%;
+  width: 32%;
 }
 @media (min-width: 375px) {
   .article-rapidez-img {
-    width: 43%;
+    width: 41%;
   }
 }
 @media (min-width: 768px) {
@@ -10623,7 +10636,7 @@ header .carousel-item img {
 }
 @media (min-width: 1200px) {
   .section-testimonios hr {
-    width: 43%;
+    width: 44%;
   }
 }
 .section-testimonios p {
@@ -10781,7 +10794,7 @@ header .carousel-item img {
 }
 @media (min-width: 992px) {
   .section-location hr {
-    width: 16%;
+    width: 20%;
   }
 }
 @media (min-width: 1200px) {
@@ -10795,7 +10808,7 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .location-icono-map, .location-icono-phone {
-    height: 2.6rem;
+    height: 2.2rem;
   }
 }
 
@@ -10804,7 +10817,7 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .location-icono-sobre {
-    height: 2.1rem;
+    height: 1.5rem;
   }
 }
 
@@ -10813,12 +10826,13 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-location .img-location {
-    padding-top: 0.7rem;
+    padding-top: 0.9rem;
   }
 }
 @media (min-width: 768px) {
   .section-location .img-location {
     width: 100%;
+    padding-top: 0;
   }
 }
 @media (min-width: 992px) {
@@ -10838,8 +10852,12 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .section-location h4 {
-    font-size: 1.5em;
+    font-size: 1.438em;
   }
+}
+
+.section-location p {
+  font-weight: 300;
 }
 
 .section-location .location-flex {
