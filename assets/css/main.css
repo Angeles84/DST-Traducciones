@@ -10145,6 +10145,16 @@ P {
   }
 }
 
+.header-about-us {
+  background-image: url(../img/carousel-4-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
 nav a {
   font-size: 1.063em;
   transition: all 0.6s ease;
@@ -10339,15 +10349,15 @@ footer .footer-sobre {
   }
 }
 .carousel-texto-home h2 {
-  font-size: 1.375em;
+  font-size: 1.438em;
   text-shadow: 1px 1px 17px #ffffff;
 }
-@media (min-width: 375px) {
+@media (min-width: 576px) {
   .carousel-texto-home h2 {
-    font-size: 1.188em;
+    font-size: 1.5em;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .carousel-texto-home h2 {
     font-size: 2.188em;
   }
@@ -10423,6 +10433,7 @@ header .carousel-item img {
   width: 60%;
   margin-top: 0.3rem;
   margin-bottom: 2rem;
+  margin-left: 0;
 }
 @media (min-width: 375px) {
   .section-about hr {
@@ -10441,7 +10452,6 @@ header .carousel-item img {
 }
 @media (min-width: 992px) {
   .section-about hr {
-    margin-left: 0;
     width: 31%;
   }
 }
@@ -10908,71 +10918,72 @@ header .carousel-item img {
   flex-wrap: nowrap;
 }
 
-.carousel-texto-us {
-  padding-right: 1em;
+.texto-us {
+  padding-right: 4rem;
+  padding-left: 2.4rem;
 }
 @media (min-width: 375px) {
-  .carousel-texto-us {
+  .texto-us {
     padding-right: 5em;
     padding-bottom: 2.8rem;
   }
 }
 @media (min-width: 576px) {
-  .carousel-texto-us {
+  .texto-us {
     padding-right: 5.2em;
     padding-bottom: 1.6rem;
   }
 }
 @media (min-width: 768px) {
-  .carousel-texto-us {
+  .texto-us {
     padding-bottom: 3.2rem;
   }
 }
 @media (min-width: 992px) {
-  .carousel-texto-us {
+  .texto-us {
     padding-bottom: 5.2rem;
   }
 }
 @media (min-width: 1200px) {
-  .carousel-texto-us {
+  .texto-us {
     padding-bottom: 7.7rem;
   }
 }
-.carousel-texto-us h2 {
+.texto-us h2 {
   font-size: 1.375em;
   text-shadow: 1px 1px 17px #ffffff;
 }
-@media (min-width: 375px) {
-  .carousel-texto-us h2 {
-    font-size: 1.188em;
+@media (min-width: 576px) {
+  .texto-us h2 {
+    font-size: 1.875em;
   }
 }
-@media (min-width: 576px) {
-  .carousel-texto-us h2 {
+@media (min-width: 768px) {
+  .texto-us h2 {
     font-size: 2.188em;
   }
 }
-.carousel-texto-us p {
+.texto-us p {
   font-size: 0.8;
   text-shadow: 1px 1px 17px #ffffff;
 }
 @media (min-width: 375px) {
-  .carousel-texto-us p {
+  .texto-us p {
     font-size: 0.8;
   }
 }
 @media (min-width: 576px) {
-  .carousel-texto-us p {
+  .texto-us p {
     font-size: 0.938em;
   }
 }
 @media (min-width: 768px) {
-  .carousel-texto-us p {
+  .texto-us p {
     font-size: 1em;
   }
 }
 @media (min-width: 1200px) {
-  .carousel-texto-us p {
+  .texto-us p {
     font-size: 1.063em;
   }
 }

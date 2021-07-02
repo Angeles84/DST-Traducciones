@@ -1,5 +1,6 @@
-.carousel-texto-us {
-  padding-right: 1em;
+.texto-us {
+  padding-right: 4rem;
+  padding-left: 2.4rem;
 
   @include x-small {
     padding-right: 5em;
@@ -23,10 +24,10 @@
     font-size: $large;
     text-shadow: 1px 1px 17px #ffffff;
 
-    @include x-small {
-      font-size: $large-cel;  
-    }
     @include small {
+      font-size: $xx-large;  
+    }
+    @include medium {
       font-size: $xxx-large;  
     } 
   }
@@ -48,7 +49,6 @@
     }
   } 
 }
-
 
 .section-about-us {
   margin-top: 3.5rem;

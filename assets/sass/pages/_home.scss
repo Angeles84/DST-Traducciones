@@ -19,13 +19,13 @@
   }
 
   h2 {
-    font-size: $large;
+    font-size: $large-23;
     text-shadow: 1px 1px 17px #ffffff;
 
-    @include x-small {
-      font-size: $large-cel;  
-    }
     @include small {
+      font-size: $x-large;  
+    }
+    @include medium {
       font-size: $xxx-large;  
     } 
   }
@@ -88,6 +88,7 @@ header .carousel-item img {
     width: 60%;
     margin-top: 0.3rem;
     margin-bottom: 2rem;
+    margin-left: 0;
     
     @include x-small {
       width: 42%; 
@@ -99,7 +100,6 @@ header .carousel-item img {
       width: 21%; 
     }
     @include large {
-      margin-left: 0;
       width: 31%;
     }
     @include x-large {

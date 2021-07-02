@@ -88,6 +88,7 @@
   }
 }
 
+//Ubicacion
 .section-location {
   height: 110vh;
   height: -webkit-fill-available;
@@ -112,6 +113,18 @@
   @include x-large {
     height: 73vh;  
   }
+}
+
+//pag About-us
+
+.header-about-us {
+  background-image: url(../img/carousel-4-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; 
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 //Luis Arancibia22:41  min-height  min-width min-height: 100%  height: 100%  height: min(100%)
