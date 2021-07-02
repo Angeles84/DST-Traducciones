@@ -10988,6 +10988,11 @@ header .carousel-item img {
     margin-bottom: 4.5rem;
   }
 }
+@media (min-width: 768px) {
+  .section-about-us {
+    margin-top: 5rem;
+  }
+}
 .section-about-us .about-us-img-1 {
   width: 80%;
   border-radius: 0 60px 0 60px;
@@ -11073,6 +11078,11 @@ header .carousel-item img {
   .section-about-us .about-us-img-2 {
     width: 65%;
   }
+}
+
+.section-about-us span {
+  color: #006384;
+  font-weight: 600;
 }
 
 @media (min-width: 992px) {
