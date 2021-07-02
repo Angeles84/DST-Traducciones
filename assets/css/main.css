@@ -11083,6 +11083,7 @@ header .carousel-item img {
 .section-about-us span {
   color: #006384;
   font-weight: 600;
+  font-family: "eurostiletmedregular";
 }
 
 @media (min-width: 992px) {
