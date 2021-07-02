@@ -10276,6 +10276,7 @@ footer .footer-sobre {
 
 .footer-flex {
   display: flex;
+  display: -webkit-flex;
   flex-wrap: nowrap;
 }
 
@@ -10285,12 +10286,15 @@ footer .footer-sobre {
 
 .footer-pg-interna-1, .footer-pg-interna-2 {
   display: flex;
+  display: -webkit-flex;
   flex-wrap: nowrap;
   justify-content: center;
+  -webkit-justify-content: center;
 }
 @media (min-width: 768px) {
   .footer-pg-interna-1, .footer-pg-interna-2 {
     justify-content: flex-start;
+    -webkit-justify-content: flex-start;
   }
 }
 
