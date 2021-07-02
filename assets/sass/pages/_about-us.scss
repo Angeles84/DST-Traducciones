@@ -1,5 +1,5 @@
 .texto-us {
-  padding-right: 4rem;
+  padding-right: 4.5rem;
   padding-left: 2.4rem;
 
   @include x-small {
@@ -21,7 +21,7 @@
   }
 
   h2 {
-    font-size: $large;
+    font-size: $large-23;
     text-shadow: 1px 1px 17px #ffffff;
 
     @include small {
