@@ -10364,6 +10364,10 @@ header .carousel-item img {
   object-fit: cover;
 }
 
+.header-img-2, .header-img-4 {
+  object-position: left;
+}
+
 .section-about {
   margin-top: 3.5rem;
   margin-bottom: 3rem;
