@@ -10184,6 +10184,10 @@ nav a .nav-gray {
   color: #696969;
 }
 
+.nav-nombre {
+  font-size: 1.125em;
+}
+
 nav a:last-child {
   font-size: 0.794em;
   padding-top: 0.63rem;
