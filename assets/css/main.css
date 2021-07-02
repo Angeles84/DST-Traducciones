@@ -10261,14 +10261,17 @@ footer .footer-sobre {
 }
 .footer-fondo p {
   font-weight: 300;
+  font-size: 0.938em;
 }
 
 .footer-col-2 {
-  padding-left: 4rem;
+  padding-left: 4.5rem;
 }
 
-.footer-col-3 {
-  padding-left: 3rem;
+@media (min-width: 768px) {
+  .footer-col-3 {
+    padding-left: 3rem;
+  }
 }
 
 .footer-flex {
@@ -10278,6 +10281,17 @@ footer .footer-sobre {
 
 .footer-about-us {
   border-top: 1.5px solid #D6E1E3;
+}
+
+.footer-pg-interna-1, .footer-pg-interna-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .footer-pg-interna-1, .footer-pg-interna-2 {
+    justify-content: flex-start;
+  }
 }
 
 .servicios-button {

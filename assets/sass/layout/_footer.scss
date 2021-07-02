@@ -54,15 +54,20 @@ footer .footer-sobre {
   background-color: $light-gray;
   p {
     font-weight: $light-300;
+    font-size: $small;
   }
 }
 
 .footer-col-2 {
-  padding-left: 4rem;
+  padding-left: 4.5rem;
 }
 
 .footer-col-3 {
-  padding-left: 3rem;
+
+  @include medium {
+    padding-left: 3rem; 
+  }
+  
 }
 
 .footer-flex {
@@ -72,4 +77,13 @@ footer .footer-sobre {
 
 .footer-about-us {
   border-top: 1.5px solid $light-gray-green;
+}
+
+.footer-pg-interna-1 , .footer-pg-interna-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  @include medium {
+    justify-content: flex-start; 
+  }
 }
