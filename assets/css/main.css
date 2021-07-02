@@ -10328,7 +10328,7 @@ footer .footer-sobre {
 
 .carousel-texto-home {
   padding-bottom: 2.2rem;
-  padding-right: 0.7em;
+  padding-right: 2em;
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
@@ -10353,7 +10353,7 @@ footer .footer-sobre {
   }
 }
 .carousel-texto-home h2 {
-  font-size: 1.438em;
+  font-size: 1.375em;
   text-shadow: 1px 1px 17px #ffffff;
 }
 @media (min-width: 576px) {
