@@ -19,11 +19,11 @@
   }
 
   h2 {
-    font-size: $large;
+    font-size: $met-21;
     text-shadow: 1px 1px 17px #ffffff;
     
     @include x-small {
-      font-size: $large-23;  
+      font-size: $large;  
     }
     @include small {
       font-size: $x-large;  
