@@ -1,0 +1,21 @@
+
+.servicios-pagina {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  h3 {
+    font-size: $large;
+    @include small {
+      font-size: $x-large;  
+    }
+  }
+  p {
+    font-weight: $light-300;
+    @include large {
+      border-bottom: 1.5px solid $green;
+      border-right: 1.5px solid $green;
+    }
+    @include x-large {
+      padding-top: 0.5rem;
+    }
+  }
+}

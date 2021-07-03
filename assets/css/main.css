@@ -10168,7 +10168,35 @@ P {
 }
 @media (min-width: 992px) {
   .header-about-us {
-    padding-top: 6rem;
+    padding-top: 7rem;
+  }
+}
+
+.header-servicios {
+  background-image: url(../img/carousel-2-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.7rem;
+}
+@media (min-width: 576px) {
+  .header-servicios {
+    margin-top: 5rem;
+    padding-top: 3.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .header-servicios {
+    margin-top: 4.5rem;
+    padding-top: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .header-servicios {
+    padding-top: 8rem;
+    padding-bottom: 0;
   }
 }
 
@@ -10345,7 +10373,7 @@ footer .footer-sobre {
 
 .carousel-texto-home {
   padding-bottom: 2.2rem;
-  padding-right: 2rem;
+  padding-right: 0.6rem;
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
@@ -10945,8 +10973,8 @@ header .carousel-item img {
 }
 
 .texto-us {
-  padding-right: 4.5rem;
-  padding-left: 1.7rem;
+  padding-right: 4rem;
+  padding-left: 1.5rem;
 }
 @media (min-width: 375px) {
   .texto-us {
@@ -11136,6 +11164,33 @@ header .carousel-item img {
 @media (min-width: 1200px) {
   .about-us-p-borde {
     margin-top: 2.5rem;
+  }
+}
+
+.servicios-pagina {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.servicios-pagina h3 {
+  font-size: 1.375em;
+}
+@media (min-width: 576px) {
+  .servicios-pagina h3 {
+    font-size: 1.5em;
+  }
+}
+.servicios-pagina p {
+  font-weight: 300;
+}
+@media (min-width: 992px) {
+  .servicios-pagina p {
+    border-bottom: 1.5px solid #ADC4C8;
+    border-right: 1.5px solid #ADC4C8;
+  }
+}
+@media (min-width: 1200px) {
+  .servicios-pagina p {
+    padding-top: 0.5rem;
   }
 }
 
