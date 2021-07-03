@@ -125,6 +125,17 @@
   margin-top: 3.5rem;
   padding-top: 2.5rem;
   padding-bottom: 0.7rem;
+  @include small {
+    margin-top: 5rem;
+    padding-top: 3.8rem; 
+  }
+  @include medium {
+    margin-top: 4.5rem;
+    padding-top: 3rem; 
+  }
+  @include large {
+    padding-top: 6rem; 
+  }
 }
 
 //Luis Arancibia22:41  min-height  min-width min-height: 100%  height: 100%  height: min(100%)

@@ -1,7 +1,7 @@
 //Header
 .carousel-texto-home {
   padding-bottom: 2.2rem;
-  padding-right: 2em;
+  padding-right: 2rem;
 
   @include x-small {
     padding-right: 5em;
@@ -21,7 +21,10 @@
   h2 {
     font-size: $large;
     text-shadow: 1px 1px 17px #ffffff;
-
+    
+    @include x-small {
+      font-size: $large-23;  
+    }
     @include small {
       font-size: $x-large;  
     }

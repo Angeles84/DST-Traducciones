@@ -3,7 +3,7 @@
   padding-left: 2.4rem;
 
   @include x-small {
-    padding-right: 5em;
+    padding-right: 7.5em;
     padding-bottom: 2.8rem;
   }
   @include small {
@@ -11,13 +11,15 @@
     padding-bottom: 1.6rem;
   }
   @include medium {
+    padding-left: 2.7rem;
     padding-bottom: 3.2rem;
   }
   @include large {
-    padding-bottom: 5.2rem;
+    padding-bottom: 5rem;
   }
   @include x-large {
-    padding-bottom: 7.7rem;
+    padding-left: 3rem;
+    padding-bottom: 7rem;
   }
 
   h2 {
