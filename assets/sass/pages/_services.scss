@@ -18,4 +18,14 @@
       padding-top: 0.5rem;
     }
   }
+  img {
+    height: 60%;
+    align-self: center;
+  }
+}
+
+.servicios-pagina .servicio-filter{
+  display: flex;
+  background-color: rgba(0, 86, 115, 0.75);
+  height: 100%;
 }

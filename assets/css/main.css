@@ -10373,7 +10373,7 @@ footer .footer-sobre {
 
 .carousel-texto-home {
   padding-bottom: 2.2rem;
-  padding-right: 0.6rem;
+  padding-right: 0.4rem;
 }
 @media (min-width: 375px) {
   .carousel-texto-home {
@@ -10417,6 +10417,7 @@ footer .footer-sobre {
   }
 }
 .carousel-texto-home p {
+  padding-right: 0.5rem;
   font-size: 0.8;
   text-shadow: 1px 1px 17px #ffffff;
 }
@@ -11192,6 +11193,16 @@ header .carousel-item img {
   .servicios-pagina p {
     padding-top: 0.5rem;
   }
+}
+.servicios-pagina img {
+  height: 60%;
+  align-self: center;
+}
+
+.servicios-pagina .servicio-filter {
+  display: flex;
+  background-color: rgba(0, 86, 115, 0.75);
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
