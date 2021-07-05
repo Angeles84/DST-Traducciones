@@ -1,4 +1,4 @@
-//Servicios
+//Servicios Home
 .servicio-1 {
   height: 29vh;
   background-image: url(../img/servicio-1.jpg);
@@ -159,4 +159,24 @@
   }
 }
 
+//Servicios pag
+.servicio-11 {
+  height: 22vh;
+  background-image: url(../img/servicio-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 26vh;  
+  }
+  @include large {
+    height: 35vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+}
 // sass --watch assets/sass/main.scss:assets/css/main.css

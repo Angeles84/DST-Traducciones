@@ -3,13 +3,14 @@
   padding-top: 2rem;
   padding-bottom: 3rem;
   h3 {
-    font-size: $large;
-    @include small {
+    font-size: $met-21;
+    @include large {
       font-size: $x-large;  
     }
   }
   p {
     font-weight: $light-300;
+    margin-bottom: 0;
     @include large {
       border-bottom: 1.5px solid $green;
       border-right: 1.5px solid $green;
@@ -19,11 +20,17 @@
     }
   }
   img {
-    height: 60%;
+    height: 35%;
     align-self: center;
+    @include small {
+      height: 40%;  
+    }
   }
 }
 
+.servicio-11 {
+  display: flex;
+}
 .servicios-pagina .servicio-filter{
   display: flex;
   background-color: rgba(0, 86, 115, 0.75);
