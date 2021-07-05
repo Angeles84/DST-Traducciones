@@ -44,9 +44,11 @@
 }
 .servicio-11, .servicio-22, .servicio-33 {
   display: flex;
+  display: -webkit-flex;
 }
 .servicios-pagina .servicio-filter{
   display: flex;
+  display: -webkit-flex;
   background-color: rgba(0, 86, 115, 0.75);
   height: 100%;
 }

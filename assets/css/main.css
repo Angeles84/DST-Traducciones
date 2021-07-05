@@ -10671,6 +10671,7 @@ header .carousel-item img {
 
 .servicio-1, .servicio-2, .servicio-3 {
   display: flex;
+  display: -webkit-flex;
 }
 
 .article-filter {
@@ -10884,13 +10885,16 @@ header .carousel-item img {
 
 .padre-comillas {
   display: flex;
+  display: -webkit-flex;
 }
 .padre-comillas img {
   align-self: flex-end;
+  -webkit-align-self: flex-end;
 }
 @media (min-width: 576px) {
   .padre-comillas img {
     align-self: flex-start;
+    -webkit-justify-content: flex-start;
   }
 }
 
@@ -11311,10 +11315,12 @@ header .carousel-item img {
 
 .servicio-11, .servicio-22, .servicio-33 {
   display: flex;
+  display: -webkit-flex;
 }
 
 .servicios-pagina .servicio-filter {
   display: flex;
+  display: -webkit-flex;
   background-color: rgba(0, 86, 115, 0.75);
   height: 100%;
 }
