@@ -2,13 +2,16 @@
 .servicios-pagina {
   padding-top: 2rem;
   padding-bottom: 3rem;
+  @include large {
+    padding-top: 3.5rem;
+  }
   h3 {
     font-size: $met-21;
     @include large {
       font-size: $x-large;  
     }
   }
-  p {
+  .servicio-11-p , .servicio-33-p{
     font-weight: $light-300;
     margin-bottom: 0;
     @include large {
@@ -28,7 +31,18 @@
   }
 }
 
-.servicio-11 {
+.servicios-pagina .servicio-22-p {
+  font-weight: $light-300;
+    margin-bottom: 0;
+    @include large {
+      border-bottom: 1.5px solid $green;
+      border-left: 1.5px solid $green;
+    }
+    @include x-large {
+      padding-top: 0.5rem;
+    }
+}
+.servicio-11, .servicio-22, .servicio-33 {
   display: flex;
 }
 .servicios-pagina .servicio-filter{

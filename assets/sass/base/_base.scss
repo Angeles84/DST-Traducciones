@@ -179,4 +179,44 @@
     height: 30vh;  
   }
 }
+
+.servicio-22 {
+  height: 22vh;
+  background-image: url(../img/servicio-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 26vh;  
+  }
+  @include large {
+    height: 30vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+}
+
+.servicio-33 {
+  height: 22vh;
+  background-image: url(../img/servicio-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  @include small {
+    height: 38vh;  
+  }
+  @include medium {
+    height: 26vh;  
+  }
+  @include large {
+    height: 30vh;  
+  }
+  @include x-large {
+    height: 30vh;  
+  }
+}
 // sass --watch assets/sass/main.scss:assets/css/main.css
