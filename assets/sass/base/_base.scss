@@ -62,28 +62,10 @@
 
 //Why Us
 .article-why-us {
-  height: 190px;
-  height: -webkit-fill-available;
   background-image: url(../img/why-us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;  
-
-  @include x-small {
-    height: 145vh;  
-  } 
-  @include small {
-    height: 145vh;  
-  } 
-  @include medium {
-    height: 95vh;  
-  }
-  @include large {
-    height: 120vh;  
-  }
-  @include x-large {
-    height: 80vh;  
-  }
 }
 
 //Ubicacion
@@ -219,4 +201,28 @@
     height: 30vh;  
   }
 }
+
+//Política de Confidencialidad pg
+.header-confidencialidad {
+  background-image: url(../img/carousel-3-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; 
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.7rem;
+  @include small {
+    margin-top: 5rem;
+    padding-top: 3.8rem; 
+  }
+  @include medium {
+    margin-top: 4.5rem;
+    padding-top: 3rem; 
+  }
+  @include large {
+    padding-top: 7rem; 
+  }
+}
+
+
 // sass --watch assets/sass/main.scss:assets/css/main.css
