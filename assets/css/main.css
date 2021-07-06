@@ -10084,38 +10084,10 @@ P {
 }
 
 .section-location {
-  height: 110vh;
-  height: -webkit-fill-available;
   background-image: url(../img/location.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  object-fit: cover;
-}
-@media (min-width: 375px) {
-  .section-location {
-    height: 103vh;
-  }
-}
-@media (min-width: 576px) {
-  .section-location {
-    height: 135vh;
-  }
-}
-@media (min-width: 768px) {
-  .section-location {
-    height: 55vh;
-  }
-}
-@media (min-width: 992px) {
-  .section-location {
-    height: 70vh;
-  }
-}
-@media (min-width: 1200px) {
-  .section-location {
-    height: 73vh;
-  }
 }
 
 .header-about-us {

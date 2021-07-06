@@ -109,4 +109,58 @@ if(iOS){
     </div>
   </header>
 
+
+.section-location {
+  height: 110vh;
+  height: -webkit-fill-available;
+  background-image: url(../img/location.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;  
+  object-fit: cover;
+
+  @include x-small {
+    height: 103vh;  
+  } 
+  @include small {
+    height: 135vh;  
+  } 
+  @include medium {
+    height: 55vh;  
+  }
+  @include large {
+    height: 70vh;  
+  }
+  @include x-large {
+    height: 73vh;  
+  }
+}
+
+
+  .article-why-us {
+  height: 190px;
+  height: -webkit-fill-available;
+  background-image: url(../img/why-us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+
+  @include x-small {
+    height: 145vh;  
+  } 
+  @include small {
+    height: 145vh;  
+  } 
+  @include medium {
+    height: 95vh;  
+  }
+  @include large {
+    height: 120vh;  
+  }
+  @include x-large {
+    height: 80vh;  
+  }
+}
+
+
 */

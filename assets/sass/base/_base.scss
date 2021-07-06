@@ -70,29 +70,10 @@
 
 //Ubicacion
 .section-location {
-  height: 110vh;
-  height: -webkit-fill-available;
   background-image: url(../img/location.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;  
-  object-fit: cover;
-
-  @include x-small {
-    height: 103vh;  
-  } 
-  @include small {
-    height: 135vh;  
-  } 
-  @include medium {
-    height: 55vh;  
-  }
-  @include large {
-    height: 70vh;  
-  }
-  @include x-large {
-    height: 73vh;  
-  }
 }
 
 //pag About-us
