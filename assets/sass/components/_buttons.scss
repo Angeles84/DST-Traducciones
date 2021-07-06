@@ -1,3 +1,6 @@
+
+
+
 .servicios-button {
   background-color: $light-gray;
   border: 1.5px solid $esmerald;
@@ -9,5 +12,38 @@
   &:hover {
     border: 1.5px solid $turquesa;
     color: $turquesa;
+  }
+}
+
+.formulario .formulario-type-button {
+  background-color: rgba(156, 197, 206, 0.5);
+  font-weight: $light-300;
+  font-size: 0.875rem;
+  padding-bottom: 0.17rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  border-color: transparent;
+}
+
+.formulario .formulario-enviar {
+  background-color: white;
+  border: 1.5px solid white;
+  color: $esmerald;
+  font-size: $small;
+  font-weight: $semibold;
+  padding: 0.8rem 1.7rem;
+  transition: all 0.6s ease;
+  width: 100%;
+  &:hover {
+    border: 1.5px solid $turquesa;
+    color: $turquesa;
+  }
+  @include medium {
+    width: 35%;
+    padding: 0.5rem 1.7rem;
+    font-size: $small-b;
+  }
+  @include large {
+    width: 25%;
   }
 }
