@@ -10955,13 +10955,14 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .section-location hr {
-    width: 22%;
-    margin-bottom: 3rem;
+    width: 27%;
+    margin-bottom: 2.5rem;
   }
 }
 @media (min-width: 992px) {
   .section-location hr {
     width: 20%;
+    margin-bottom: 2.8rem;
   }
 }
 @media (min-width: 1200px) {

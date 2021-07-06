@@ -432,11 +432,12 @@ header .carousel-item img {
       width: 40%; 
     }
     @include medium {
-      width: 22%; 
-      margin-bottom: 3rem;
+      width: 27%; 
+      margin-bottom: 2.5rem;
     }
     @include large {
       width: 20%;
+      margin-bottom: 2.8rem;
     }
     @include x-large {
       width: 16.7%;
