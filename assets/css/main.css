@@ -11421,7 +11421,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-location-pg hr {
-    width: 40%;
+    width: 42%;
     margin-bottom: 3.2rem;
   }
 }
@@ -11513,7 +11513,7 @@ header .carousel-item img {
 .section-form hr {
   background-color: #ADC4C8;
   height: 0.092em;
-  width: 63%;
+  width: 64%;
   margin-top: 0.3rem;
   margin-bottom: 1.5rem;
   margin-left: 0;
@@ -11531,19 +11531,19 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .section-form hr {
-    width: 27%;
+    width: 57%;
     margin-bottom: 2.5rem;
   }
 }
 @media (min-width: 992px) {
   .section-form hr {
-    width: 43%;
+    width: 42.5%;
     margin-bottom: 2.8rem;
   }
 }
 @media (min-width: 1200px) {
   .section-form hr {
-    width: 36%;
+    width: 35%;
   }
 }
 
@@ -11564,6 +11564,12 @@ header .carousel-item img {
   border-bottom: 1px solid white;
   color: white;
   font-weight: 300;
+  padding-left: 0.5rem;
+}
+.formulario input:focus {
+  color: white;
+  background-color: transparent;
+  border-color: white;
 }
 
 .formulario .input-largo {
@@ -11581,6 +11587,13 @@ header .carousel-item img {
   border-left: transparent;
   border-right: transparent;
   border-bottom: 1px solid white;
+  color: white;
+  font-weight: 300;
+  padding-left: 0.5rem;
+}
+.formulario textarea:focus {
+  color: white;
+  background-color: transparent;
 }
 
 .formulario .formulario-placeholder {

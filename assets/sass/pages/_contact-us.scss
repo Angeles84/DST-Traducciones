@@ -7,7 +7,7 @@
   margin-left: 0;
 
   @include x-small {
-    width: 40%;
+    width: 42%;
     margin-bottom: 3.2rem; 
   }
   @include small {
@@ -76,7 +76,7 @@ flex-wrap: nowrap;
 .section-form hr {
   background-color: $green;
   height: 0.092em;
-  width: 63%;
+  width: 64%;
   margin-top: 0.3rem;
   margin-bottom: 1.5rem;
   margin-left: 0;
@@ -89,15 +89,15 @@ flex-wrap: nowrap;
     width: 40%; 
   }
   @include medium {
-    width: 27%; 
+    width: 57%; 
     margin-bottom: 2.5rem;
   }
   @include large {
-    width: 43%;
+    width: 42.5%;
     margin-bottom: 2.8rem;
   }
   @include x-large {
-    width: 36%;
+    width: 35%;
   }
 }
 .section-form p {
@@ -114,6 +114,12 @@ flex-wrap: nowrap;
   border-bottom: 1px solid white;
   color: white;
   font-weight: $light-300;
+  padding-left: 0.5rem;
+  &:focus {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+  }
 }
 
 .formulario .input-largo {
@@ -129,8 +135,14 @@ flex-wrap: nowrap;
   border-left: transparent;
   border-right: transparent;
   border-bottom: 1px solid white;
+  color: white;
+  font-weight: $light-300;
+  padding-left: 0.5rem;
+  &:focus {
+    color: white;
+    background-color: transparent;
+  }
 }
-
 
 .formulario .formulario-placeholder {
   font-weight: $light-300;
