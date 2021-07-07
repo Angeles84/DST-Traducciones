@@ -10461,8 +10461,8 @@ footer .footer-sobre {
   color: #9CC5CE;
 }
 
-.formulario .formulario-type-button {
-  background-color: rgba(156, 197, 206, 0.5);
+.formulario .formulario-button-adjuntar {
+  background-color: rgba(156, 197, 206, 0.45);
   font-weight: 300;
   font-size: 0.875rem;
   padding-bottom: 0.17rem;
@@ -11414,7 +11414,7 @@ header .carousel-item img {
 .section-location-pg hr {
   background-color: #ADC4C8;
   height: 0.092em;
-  width: 58.5%;
+  width: 59%;
   margin-top: 0.3rem;
   margin-bottom: 2.7rem;
   margin-left: 0;
@@ -11513,7 +11513,7 @@ header .carousel-item img {
 .section-form hr {
   background-color: #ADC4C8;
   height: 0.092em;
-  width: 65.5%;
+  width: 66%;
   margin-top: 0.3rem;
   margin-bottom: 1.5rem;
   margin-left: 0;
@@ -11611,25 +11611,25 @@ header .carousel-item img {
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #9CC5CE;
+  color: #ADC4C8;
   opacity: 1;
   /* Firefox */
 }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #9CC5CE;
+  color: #ADC4C8;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #9CC5CE;
+  color: #ADC4C8;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #9CC5CE;
+  color: #ADC4C8;
 }
 
 /*# sourceMappingURL=main.css.map */
