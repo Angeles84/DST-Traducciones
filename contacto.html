@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,7 +48,7 @@
         <h2 class="pt-4 pt-lg-4">Ubicación</h2>
         <hr>
         <div class="row">
-          <div class="col-12 col-md-7 pl-0 pr-md-0">
+          <div class="col-12 col-md-7 pl-0 ">
             <div class="location-flex pt-lg-3 pt-xl-4">
               <img class="pr-2 location-icono-map img-fluid" src="assets/img/icono-location-c.png" alt="">
               <div><h4 class="mb-2 mb-lg-0">Hendaya 162, oficina 1501, Las Condes.</h4></div>
@@ -65,7 +65,7 @@
           </div>
           
           <div class="col-12 col-md-5 px-0">
-            <div class="pb-4 pb-sm-3">
+            <div class="pt-3 pt-md-0 pb-4 pb-sm-3">
               <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.218511403889!2d-70.5944497848015!3d-33.417547080783436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf15d4ac0e23%3A0xee832eaaaeeae372!2sHendaya%20162%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1625625451103!5m2!1ses!2scl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
           </div>
@@ -83,22 +83,32 @@
           <h2 class="pt-4 pt-lg-5">Contáctanos</h2>
           <hr>
           <p class="">Completa el siguiente formulario para<br>consultas, cotizaciones o para envío<br>de documentos.</p>
+          <h3 id="resultado" class="pt-5" style="color:#9CC5CE;font-style: italic"></h3>
         </div>
         <div class="col-12 col-md-6 px-2">
-          <form action="" class="text-white py-3 py-md-5 formulario">
+          <form id="formulario" action="" class="text-white py-3 py-md-5 formulario">
             <div><label for="name">Nombre y Apellidos*</label></div>
-            <div><input type="text" class="input-largo mb-3" autocomplete="off"></div>
+            <div>
+              <input id="nombre" type="text" class="input-largo" autocomplete="new-password">
+              <p class="errorNombre" style="color:#ff5e5e;font-style: italic;margin-bottom: 0"></p>
+            </div>
 
-            <div><label for="email">Correo electrónico*</label></div>
-            <div><input type="email" class="input-largo mb-3" autocomplete="off"></div>
+            <div><label class="mt-3" for="email">Correo electrónico*</label></div>
+            <div>
+              <input id="email" type="text" class="input-largo" autocomplete="new-password">
+              <p class="errorCorreo" style="color:#ff5e5e;font-style: italic;margin-bottom: 0"></p>
+            </div>
 
-            <div><label for="">Adjuntar un archivo</label></div>
+            <div><label class="mt-3" for="">Adjuntar un archivo</label></div>
             <div>
               <button class="formulario-button-adjuntar text-white py-2">Seleccionar archivo</button>
               <input type="text" placeholder="Ningún archivo seleccionado" class="formulario-placeholder pb-2 mt-3 mt-lg-0">
             </div>
             <div><label for="message" class="mt-3">Mensaje*</label></div>
-            <div><textarea name="" id="" cols="30" rows="4" class="input-largo" autocomplete="off"></textarea></div>
+            <div>
+              <textarea id="mensaje" name="" cols="30" rows="4" class="input-largo" autocomplete="off"></textarea>
+              <p class="errorMensaje" style="color:#ff5e5e;font-style: italic;margin-bottom: 0;"></p>
+            </div>
   
             <button class="bg-white mt-3 mb-3 mb-md-1 formulario-enviar">ENVIAR</button>
           </form>

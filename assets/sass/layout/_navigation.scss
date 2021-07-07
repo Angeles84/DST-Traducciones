@@ -14,6 +14,8 @@ nav a {
   }
   .nav-bandera-b {
     width: 1.5rem;
+    height: 0.85rem;
+    padding-bottom: 0.1rem;
   }
   .nav-green {
     color: $esmerald;
@@ -28,8 +30,8 @@ nav a {
 }
 
 nav a:last-child {
-  font-size: $x-small;
-  padding-top: 0.63rem;
+  font-size: $small-b;
+  padding-top: 0.5rem;
 }
 
 .navbar-brand {

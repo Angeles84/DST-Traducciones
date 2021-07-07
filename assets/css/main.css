@@ -10310,6 +10310,8 @@ nav a .nav-logo {
 }
 nav a .nav-bandera-b {
   width: 1.5rem;
+  height: 0.85rem;
+  padding-bottom: 0.1rem;
 }
 nav a .nav-green {
   color: #006384;
@@ -10324,8 +10326,8 @@ nav a .nav-gray {
 }
 
 nav a:last-child {
-  font-size: 0.794em;
-  padding-top: 0.63rem;
+  font-size: 0.8;
+  padding-top: 0.5rem;
 }
 
 .navbar-brand {
@@ -11091,7 +11093,7 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .section-location h4 {
-    font-size: 1.438em;
+    font-size: 1.375em;
   }
 }
 
@@ -11497,7 +11499,7 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .section-location-pg h4 {
-    font-size: 1.438em;
+    font-size: 1.375em;
   }
 }
 
@@ -11556,6 +11558,10 @@ header .carousel-item img {
   }
 }
 
+.formulario label {
+  font-size: 1.063em;
+}
+
 .formulario input {
   background-color: transparent;
   border-top: transparent;
@@ -11577,7 +11583,7 @@ header .carousel-item img {
 }
 @media (min-width: 992px) {
   .formulario .input-largo {
-    width: 21rem;
+    width: 22rem;
   }
 }
 
@@ -11605,7 +11611,7 @@ header .carousel-item img {
 }
 @media (min-width: 992px) {
   .formulario .formulario-placeholder {
-    width: 12.5rem;
+    width: 13.3rem;
   }
 }
 
@@ -11632,14 +11638,13 @@ header .carousel-item img {
   color: #ADC4C8;
 }
 
+.errorNombre {
+  font-size: 0.813rem;
+}
+
 .mapa {
   width: 100%;
-  height: 220px;
-}
-@media (min-width: 375px) {
-  .mapa {
-    height: 240px;
-  }
+  height: 240px;
 }
 @media (min-width: 576px) {
   .mapa {
