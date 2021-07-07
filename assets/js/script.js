@@ -13,7 +13,7 @@ formulario.addEventListener("submit", function (event) {
   let resultado = validar(textNombre, textCorreo, textMensaje);
 
   if (resultado == true) {
-    mensajeExito.innerHTML = "Mensaje enviado con éxito!!";
+    mensajeExito.innerHTML = "¡Mensaje enviado con éxito!";
     const inputs = document.querySelectorAll("input");
     const textArea = document.querySelectorAll("textarea");
 
