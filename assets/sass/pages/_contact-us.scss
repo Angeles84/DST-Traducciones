@@ -172,3 +172,24 @@ flex-wrap: nowrap;
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: $green;
 }
+
+.mapa {
+  width: 100%;
+  height: 220px;
+
+  @include x-small {
+    height: 240px;
+  }
+  @include small {
+    height: 270px;
+  }
+  @include medium {
+    height: 260px
+  }
+  @include large {
+    height: 270px;
+  }
+  @include x-large {
+    height: 300px;
+  }
+}

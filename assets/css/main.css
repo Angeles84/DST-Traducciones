@@ -11632,4 +11632,34 @@ header .carousel-item img {
   color: #ADC4C8;
 }
 
+.mapa {
+  width: 100%;
+  height: 220px;
+}
+@media (min-width: 375px) {
+  .mapa {
+    height: 240px;
+  }
+}
+@media (min-width: 576px) {
+  .mapa {
+    height: 270px;
+  }
+}
+@media (min-width: 768px) {
+  .mapa {
+    height: 260px;
+  }
+}
+@media (min-width: 992px) {
+  .mapa {
+    height: 270px;
+  }
+}
+@media (min-width: 1200px) {
+  .mapa {
+    height: 300px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
