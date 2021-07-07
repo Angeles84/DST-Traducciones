@@ -33,7 +33,7 @@ function limpiarErrores() {
 
 function validar(nombre, correo, mensaje) {
   let pasamosLaValidacion = true;
-  let validacionNombre = /^[a-zA-Z]+$/gim;
+  let validacionNombre = /^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$/g;
 
   if (validacionNombre.test(nombre) == false) {
     document.querySelector(".errorNombre").innerHTML = "El nombre es requerido.";
@@ -46,7 +46,7 @@ function validar(nombre, correo, mensaje) {
     pasamosLaValidacion = false;
   }
 
-  let validacionMensaje = /^[a-zA-Z]+$/gim;
+  let validacionMensaje = /^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$/g;
   if (validacionMensaje.test(mensaje) == false) {
     document.querySelector(".errorMensaje").innerHTML = "El mensaje es requerido.";
     pasamosLaValidacion = false;
