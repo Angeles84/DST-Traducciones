@@ -1,3 +1,12 @@
+//Archivo adjunto aparece en el párrafo
+
+let archivo = document.querySelector("#input-file");
+archivo.addEventListener("change" , () => {
+  document.querySelector("#placeholder").innerHTML = archivo.files[0].name;
+})
+
+
+
 //validación del formulario
 
 let formulario = document.getElementById("formulario");
@@ -19,6 +28,7 @@ formulario.addEventListener("submit", function (event) {
 
     inputs.forEach((input) => (input.value = ""));
     textArea.forEach((textarea) => (textarea.value = ""));
+    document.querySelector("#placeholder").style.opacity = '0';
   } else {
     mensajeExito.innerHTML = "";
   }

@@ -10463,7 +10463,7 @@ footer .footer-sobre {
   color: #9CC5CE;
 }
 
-.formulario .formulario-button-adjuntar {
+.formulario .button-input-file {
   background-color: rgba(156, 197, 206, 0.45);
   font-weight: 300;
   font-size: 0.875rem;
@@ -10471,6 +10471,10 @@ footer .footer-sobre {
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   border-color: transparent;
+  transition: all 0.6s ease;
+}
+.formulario .button-input-file:hover {
+  background-color: rgba(122, 156, 163, 0.45);
 }
 
 .formulario .formulario-enviar {
@@ -11302,12 +11306,12 @@ header .carousel-item img {
 }
 
 .servicios-pagina {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
 }
 @media (min-width: 992px) {
   .servicios-pagina {
-    padding-top: 3.5rem;
+    padding-top: 5rem;
   }
 }
 .servicios-pagina h3 {
@@ -11583,7 +11587,7 @@ header .carousel-item img {
 }
 @media (min-width: 992px) {
   .formulario .input-largo {
-    width: 22rem;
+    width: 25.5rem;
   }
 }
 
@@ -11602,39 +11606,35 @@ header .carousel-item img {
   background-color: transparent;
 }
 
-.formulario .formulario-placeholder {
-  font-weight: 300;
-  font-size: 0.875rem;
-  padding-bottom: 0.17rem;
+.formulario .div-input-file {
+  position: relative;
+  border-bottom: 1px solid #fff;
   width: 100%;
-  padding-left: 0.6rem;
 }
 @media (min-width: 992px) {
-  .formulario .formulario-placeholder {
-    width: 13.3rem;
+  .formulario .div-input-file {
+    width: 25.5rem;
   }
 }
 
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #ADC4C8;
-  opacity: 1;
-  /* Firefox */
+.formulario .button-input-file {
+  position: absolute;
+  cursor: pointer;
 }
 
-:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: #ADC4C8;
-  opacity: 1;
+.formulario .input-file {
+  position: absolute;
+  opacity: 0;
 }
 
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #ADC4C8;
-}
-
-::-ms-input-placeholder {
-  /* Microsoft Edge */
+.formulario .p-input-file {
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  margin-bottom: 0.6rem;
+  margin-left: 8.7rem;
+  margin-right: 0;
+  font-weight: 300;
+  font-size: 0.938em;
   color: #ADC4C8;
 }
 

@@ -130,7 +130,7 @@ flex-wrap: nowrap;
 .formulario .input-largo {
   width: 100%;
   @include large {
-    width: 22rem;
+    width: 25.5rem;
   }
 }
 
@@ -149,34 +149,34 @@ flex-wrap: nowrap;
   }
 }
 
-.formulario .formulario-placeholder {
-  font-weight: $light-300;
-  font-size: 0.875rem;
-  padding-bottom: 0.17rem;
+.formulario .div-input-file {
+  position: relative;
+  border-bottom: 1px solid #fff;
   width: 100%;
-  padding-left: 0.6rem;
   @include large {
-    width: 13.3rem;
+    width: 25.5rem;
   }
 }
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: $green;
-  opacity: 1; /* Firefox */
+.formulario .button-input-file {
+  position: absolute;
+  cursor: pointer;
+}
+.formulario .input-file {
+  position: absolute;
+  opacity: 0;
 }
 
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+.formulario .p-input-file {
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  margin-bottom: 0.6rem;
+  margin-left: 8.7rem;
+  margin-right: 0;
+  font-weight: $light-300;
+  font-size: $small;
   color: $green;
-  opacity: 1;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: $green;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-  color: $green;
-}
 
 .errorNombre {
   font-size: 0.813rem;   //13

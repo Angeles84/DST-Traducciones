@@ -12,7 +12,7 @@
   }
 }
 
-.formulario .formulario-button-adjuntar {
+.formulario .button-input-file {
   background-color: rgba(156, 197, 206, 0.45);
   font-weight: $light-300;
   font-size: 0.875rem;
@@ -20,6 +20,10 @@
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   border-color: transparent;
+  transition: all 0.6s ease;
+  &:hover {
+    background-color: rgba(122, 156, 163, 0.45);
+  }
 }
 
 .formulario .formulario-enviar {
