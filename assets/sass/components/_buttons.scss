@@ -6,6 +6,7 @@
   font-weight: $semibold;
   padding: 0.7rem 1.9rem;
   transition: all 0.6s ease;
+  cursor: pointer;
   &:hover {
     border: 1.5px solid $turquesa;
     color: $turquesa;
@@ -21,6 +22,7 @@
   padding-right: 0.7rem;
   border-color: transparent;
   transition: all 0.6s ease;
+  cursor: pointer;
   &:hover {
     background-color: rgba(122, 156, 163, 0.45);
   }
@@ -35,6 +37,7 @@
   padding: 0.8rem 1.7rem;
   transition: all 0.6s ease;
   width: 100%;
+  cursor: pointer;
   &:hover {
     border: 1.5px solid $turquesa;
     color: $turquesa;

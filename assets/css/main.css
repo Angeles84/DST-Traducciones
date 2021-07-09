@@ -9939,6 +9939,10 @@ body {
   margin: 0;
 }
 
+a {
+  cursor: pointer;
+}
+
 @font-face {
   font-family: "eurostiletmedregular";
   src: url("fonts/eurostiletmed-webfont.eot");
@@ -10457,6 +10461,7 @@ footer .footer-sobre {
   font-weight: 600;
   padding: 0.7rem 1.9rem;
   transition: all 0.6s ease;
+  cursor: pointer;
 }
 .servicios-button:hover {
   border: 1.5px solid #9CC5CE;
@@ -10472,6 +10477,7 @@ footer .footer-sobre {
   padding-right: 0.7rem;
   border-color: transparent;
   transition: all 0.6s ease;
+  cursor: pointer;
 }
 .formulario .button-input-file:hover {
   background-color: rgba(122, 156, 163, 0.45);
@@ -10486,6 +10492,7 @@ footer .footer-sobre {
   padding: 0.8rem 1.7rem;
   transition: all 0.6s ease;
   width: 100%;
+  cursor: pointer;
 }
 .formulario .formulario-enviar:hover {
   border: 1.5px solid #9CC5CE;
@@ -11455,55 +11462,30 @@ header .carousel-item img {
 }
 
 .location-icono-map, .location-icono-phone {
-  height: 1.8rem;
+  height: 1.6rem;
 }
 @media (min-width: 768px) {
   .location-icono-map, .location-icono-phone {
-    height: 2.2rem;
+    height: 2rem;
   }
 }
 
 .location-icono-sobre {
-  height: 1.4rem;
+  height: 1.2rem;
 }
 @media (min-width: 768px) {
   .location-icono-sobre {
-    height: 1.5rem;
-  }
-}
-
-.section-location-pg .img-location {
-  width: 98%;
-}
-@media (min-width: 375px) {
-  .section-location-pg .img-location {
-    padding-top: 0.9rem;
-  }
-}
-@media (min-width: 768px) {
-  .section-location-pg .img-location {
-    width: 100%;
-    padding-top: 0;
-  }
-}
-@media (min-width: 992px) {
-  .section-location-pg .img-location {
-    width: 85%;
-  }
-}
-@media (min-width: 1200px) {
-  .section-location-pg .img-location {
-    width: 77%;
+    height: 1.3rem;
   }
 }
 
 .section-location-pg h4 {
   font-weight: 400;
-  font-size: 1.188em;
+  font-size: 1.125em;
 }
 @media (min-width: 768px) {
   .section-location-pg h4 {
-    font-size: 1.375em;
+    font-size: 1.313em;
   }
 }
 
@@ -11625,6 +11607,11 @@ header .carousel-item img {
 .formulario .input-file {
   position: absolute;
   opacity: 0;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  /* chromes and blink button */
+  cursor: pointer;
 }
 
 .formulario .p-input-file {

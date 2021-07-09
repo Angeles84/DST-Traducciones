@@ -27,41 +27,26 @@
 }
 
 .location-icono-map , .location-icono-phone {
-height: 1.8rem;
+height: 1.6rem;
 @include medium {
-  height: 2.2rem;
+  height: 2rem;
 }
 }
 
 .location-icono-sobre {
-height: 1.4rem;
-@include medium {
-  height: 1.5rem;
-}
-}
-.section-location-pg .img-location {
-width: 98%;
-@include x-small {
-  padding-top: 0.9rem;
-}
-@include medium {
-  width: 100%; 
-  padding-top: 0;
-}
-@include large {
-  width: 85%; 
-}
-@include x-large {
-  width: 77%; 
-}
+  height: 1.2rem;
+  @include medium {
+    height: 1.3rem;
+  }
 }
 
+
 .section-location-pg h4 {
-font-weight: $regular;
-font-size: $large-cel;    
-@include medium {
-  font-size: $large;
-}
+  font-weight: $regular;
+  font-size: 1.125em;  //18  
+  @include medium {
+    font-size: $met-21;
+  }
 }
 
 .section-location-pg p {
@@ -164,6 +149,10 @@ flex-wrap: nowrap;
 .formulario .input-file {
   position: absolute;
   opacity: 0;
+}
+
+input[type=file]::-webkit-file-upload-button {    /* chromes and blink button */
+  cursor: pointer; 
 }
 
 .formulario .p-input-file {
