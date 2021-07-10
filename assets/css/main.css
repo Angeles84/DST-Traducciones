@@ -10783,8 +10783,17 @@ header .carousel-item img {
   font-weight: 400;
 }
 
+.article-filter h4 {
+  font-size: 1.438em;
+}
+@media (min-width: 768px) {
+  .article-filter h4 {
+    font-size: 1.5em;
+  }
+}
+
 .article-confidencialidad-img {
-  width: 19%;
+  width: 24%;
 }
 @media (min-width: 375px) {
   .article-confidencialidad-img {

@@ -223,9 +223,15 @@ header .carousel-item img {
     font-weight: $regular;
   }
 }
+.article-filter h4 {
+  font-size: $large-23;
+  @include medium {
+    font-size: $x-large;
+  }
+}
 
 .article-confidencialidad-img {
-  width: 19%;
+  width: 24%;
 
   @include x-small {
     width: 28%; 
