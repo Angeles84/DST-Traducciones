@@ -10511,6 +10511,21 @@ footer .footer-sobre {
   }
 }
 
+.modal button {
+  background-color: #fff;
+  border: 1.5px solid #006384;
+  color: #006384;
+  font-size: 0.8;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+.modal button:hover {
+  border: 1.5px solid #9CC5CE;
+  color: #9CC5CE;
+}
+
 .carousel-texto-home {
   padding-bottom: 2.2rem;
 }

@@ -10,7 +10,6 @@ archivo.addEventListener("change" , () => {
 //validación del formulario
 
 let formulario = document.getElementById("formulario");
-let mensajeExito = document.getElementById("resultado");
 
 formulario.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -20,22 +19,22 @@ formulario.addEventListener("submit", function (event) {
   let textCorreo = document.getElementById("email").value;
   let textMensaje = document.getElementById("mensaje").value;
   let resultado = validar(textNombre, textCorreo, textMensaje);
+  let modal = document.getElementById("modal");
 
   if (resultado == true) {
-    mensajeExito.innerHTML = "¡Mensaje enviado con éxito!";
     const inputs = document.querySelectorAll("input");
     const textArea = document.querySelectorAll("textarea");
 
     inputs.forEach((input) => (input.value = ""));
     textArea.forEach((textarea) => (textarea.value = ""));
     document.querySelector("#placeholder").style.opacity = '0';
+    $(modal).modal("show");
   } else {
-    mensajeExito.innerHTML = "";
+    $(modal).modal("hide");
   }
 });
 
 function limpiarErrores() {
-  mensajeExito.innerHTML = "";
   document.querySelector(".errorNombre").innerHTML = "";
   document.querySelector(".errorCorreo").innerHTML = "";
   document.querySelector(".errorMensaje").innerHTML = "";
@@ -56,7 +55,7 @@ function validar(nombre, correo, mensaje) {
     pasamosLaValidacion = false;
   }
 
-  let validacionMensaje = /^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$/g;
+  let validacionMensaje = /^[a-zA-ZÀ-ÿ0-9\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ0-9\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ0-9\u00f1\u00d1]+$/g; 
   if (validacionMensaje.test(mensaje) == false) {
     document.querySelector(".errorMensaje").innerHTML = "El mensaje es requerido.";
     pasamosLaValidacion = false;
