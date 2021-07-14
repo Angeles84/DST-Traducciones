@@ -42,6 +42,28 @@ function limpiarErrores() {
 
 function validar(nombre, correo, mensaje) {
   let pasamosLaValidacion = true;
+ 
+  if (nombre == "") {
+    document.querySelector(".errorNombre").innerHTML = "El nombre es requerido.";
+    pasamosLaValidacion = false;
+  }
+
+  let validacionCorreo = /[A-Z0-9._%+-]+@[A-Z0-9-]+.[A-Z]/gim;
+  if (validacionCorreo.test(correo) == false) {
+    document.querySelector(".errorCorreo").innerHTML = "El correo es requerido o tal vez te faltó la @";
+    pasamosLaValidacion = false;
+  }
+
+  if (mensaje == "") {
+    document.querySelector(".errorMensaje").innerHTML = "El mensaje es requerido.";
+    pasamosLaValidacion = false;
+  }
+  return pasamosLaValidacion;
+}
+
+/**
+ function validar(nombre, correo, mensaje) {
+  let pasamosLaValidacion = true;
   let validacionNombre = /^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$/g;
 
   if (validacionNombre.test(nombre) == false) {
@@ -62,3 +84,4 @@ function validar(nombre, correo, mensaje) {
   }
   return pasamosLaValidacion;
 }
+ */
