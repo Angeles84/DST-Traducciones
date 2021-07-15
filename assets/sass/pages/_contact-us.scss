@@ -63,12 +63,12 @@ flex-wrap: nowrap;
   height: 0.092em;
   width: 66%;
   margin-top: 0.3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   margin-left: 0;
 
   @include x-small {
     width: 56%;
-    margin-bottom: 3.2rem; 
+    margin-bottom: 2.5rem; 
   }
   @include small {
     width: 40%; 
