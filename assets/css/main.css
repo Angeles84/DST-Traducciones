@@ -11527,13 +11527,13 @@ header .carousel-item img {
   height: 0.092em;
   width: 66%;
   margin-top: 0.3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
   margin-left: 0;
 }
 @media (min-width: 375px) {
   .section-form hr {
     width: 56%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.2rem;
   }
 }
 @media (min-width: 576px) {
