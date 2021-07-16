@@ -67,8 +67,8 @@
   }
   .about-us-img-1 {
     width: 80%;
-    border-radius: 0 60px 0 60px;
-    box-shadow: 6px 8px 60px rgba(0, 0, 0,0.4);
+    border-radius: 0 50px 0 50px;
+    box-shadow: 6px 8px 50px rgba(0, 0, 0, 0.30);
   
     @include medium {
       width: 65%; 
@@ -119,8 +119,8 @@
 }
 .section-about-us .about-us-img-2 {
   width: 80%;
-  border-radius: 0 60px 0 60px;
-  box-shadow: 6px 8px 60px rgba(0, 0, 0,0.4);
+  border-radius: 0 50px 0 50px;
+  box-shadow: 6px 8px 50px rgba(0, 0, 0, 0.30);
 
   @include medium {
     width: 65%; 
