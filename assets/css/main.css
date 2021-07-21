@@ -10010,7 +10010,7 @@ P {
 }
 @media (min-width: 768px) {
   .servicio-1 {
-    height: 20vh;
+    height: 18vh;
   }
 }
 @media (min-width: 992px) {
@@ -10023,7 +10023,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
   .servicio-1 {
     height: 25vh;
   }
@@ -10043,7 +10043,7 @@ P {
 }
 @media (min-width: 768px) {
   .servicio-2 {
-    height: 20vh;
+    height: 18vh;
   }
 }
 @media (min-width: 992px) {
@@ -10056,7 +10056,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
   .servicio-2 {
     height: 25vh;
   }
@@ -10076,7 +10076,7 @@ P {
 }
 @media (min-width: 768px) {
   .servicio-3 {
-    height: 20vh;
+    height: 18vh;
   }
 }
 @media (min-width: 992px) {
@@ -10089,7 +10089,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
   .servicio-3 {
     height: 25vh;
   }
@@ -10191,7 +10191,7 @@ P {
     height: 31vh;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
   .servicio-11 {
     height: 25vh;
   }
@@ -10224,7 +10224,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
   .servicio-22 {
     height: 25vh;
   }
@@ -10257,7 +10257,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
   .servicio-33 {
     height: 25vh;
   }
