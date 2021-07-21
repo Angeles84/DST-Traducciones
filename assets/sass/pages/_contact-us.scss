@@ -1,3 +1,29 @@
+.texto-us-contacto {
+  padding-right: 4rem;
+  padding-left: 1.5rem;
+
+  @include x-small {
+    padding-right: 7.5em;
+    padding-bottom: 2.8rem;
+  }
+  @include small {
+    padding-right: 5.2em;
+    padding-bottom: 1.4rem;
+  }
+  @include medium {
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+  }
+  @include large {
+    padding-left: 1rem;
+    padding-bottom: 3.6rem;
+  }
+  @include x-large {
+    padding-left: 0;
+    padding-bottom: 5.8rem;
+  }
+}
+
 .section-location-pg  hr {
   background-color: $green;
   height: 0.092em;

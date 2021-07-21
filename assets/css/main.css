@@ -11475,6 +11475,41 @@ header .carousel-item img {
   font-family: "eurostiletmedregular";
 }
 
+.texto-us-contacto {
+  padding-right: 4rem;
+  padding-left: 1.5rem;
+}
+@media (min-width: 375px) {
+  .texto-us-contacto {
+    padding-right: 7.5em;
+    padding-bottom: 2.8rem;
+  }
+}
+@media (min-width: 576px) {
+  .texto-us-contacto {
+    padding-right: 5.2em;
+    padding-bottom: 1.4rem;
+  }
+}
+@media (min-width: 768px) {
+  .texto-us-contacto {
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .texto-us-contacto {
+    padding-left: 1rem;
+    padding-bottom: 3.6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .texto-us-contacto {
+    padding-left: 0;
+    padding-bottom: 5.8rem;
+  }
+}
+
 .section-location-pg hr {
   background-color: #ADC4C8;
   height: 0.092em;
