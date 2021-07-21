@@ -76,9 +76,6 @@
     @include large {
       width: 100%;
     }
-    @include x-large {
-      width: 100%; 
-    }
   }
   hr {
     background-color: $green;

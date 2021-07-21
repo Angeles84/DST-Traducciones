@@ -10023,6 +10023,11 @@ P {
     height: 30vh;
   }
 }
+@media (min-width: 1600px) {
+  .servicio-1 {
+    height: 25vh;
+  }
+}
 
 .servicio-2 {
   height: 29vh;
@@ -10051,6 +10056,11 @@ P {
     height: 30vh;
   }
 }
+@media (min-width: 1600px) {
+  .servicio-2 {
+    height: 25vh;
+  }
+}
 
 .servicio-3 {
   height: 29vh;
@@ -10077,6 +10087,11 @@ P {
 @media (min-width: 1200px) {
   .servicio-3 {
     height: 30vh;
+  }
+}
+@media (min-width: 1600px) {
+  .servicio-3 {
+    height: 25vh;
   }
 }
 
@@ -10176,6 +10191,11 @@ P {
     height: 31vh;
   }
 }
+@media (min-width: 1600px) {
+  .servicio-11 {
+    height: 25vh;
+  }
+}
 
 .servicio-22 {
   height: 22vh;
@@ -10204,6 +10224,11 @@ P {
     height: 30vh;
   }
 }
+@media (min-width: 1600px) {
+  .servicio-22 {
+    height: 25vh;
+  }
+}
 
 .servicio-33 {
   height: 22vh;
@@ -10230,6 +10255,11 @@ P {
 @media (min-width: 1200px) {
   .servicio-33 {
     height: 30vh;
+  }
+}
+@media (min-width: 1600px) {
+  .servicio-33 {
+    height: 25vh;
   }
 }
 
@@ -10628,12 +10658,12 @@ header .carousel-item img {
 }
 @media (min-width: 992px) {
   .section-about img {
-    width: 90%;
+    width: 93%;
   }
 }
 @media (min-width: 1200px) {
   .section-about img {
-    width: 72%;
+    width: 73%;
   }
 }
 .section-about hr {
@@ -10662,11 +10692,13 @@ header .carousel-item img {
 @media (min-width: 992px) {
   .section-about hr {
     width: 31%;
+    margin-bottom: 1.5rem;
   }
 }
 @media (min-width: 1200px) {
   .section-about hr {
     width: 26%;
+    margin-bottom: 2rem;
   }
 }
 .section-about a {
@@ -11241,11 +11273,6 @@ header .carousel-item img {
   }
 }
 @media (min-width: 992px) {
-  .section-about-us .about-us-img-1 {
-    width: 100%;
-  }
-}
-@media (min-width: 1200px) {
   .section-about-us .about-us-img-1 {
     width: 100%;
   }

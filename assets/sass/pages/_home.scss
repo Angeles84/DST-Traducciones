@@ -79,10 +79,10 @@ header .carousel-item img {
     width: 65%; 
   }
   @include large {
-    width: 90%; 
+    width: 93%; 
   }
   @include x-large {
-    width: 72%; 
+    width: 73%; 
   }
   }
   hr {
@@ -104,9 +104,11 @@ header .carousel-item img {
     }
     @include large {
       width: 31%;
+      margin-bottom: 1.5rem;
     }
     @include x-large {
       width: 26%;
+      margin-bottom: 2rem;
     }
   } 
   a {
