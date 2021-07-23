@@ -419,6 +419,41 @@ header .carousel-item img {
   }
 }
 
+.metodologia-sobre {
+  width: 5.6rem;
+  @include small {
+    width: 4.8rem; 
+  }
+  @include medium {
+    width: 5.2rem; 
+  }
+  @include medium {
+    width: 5rem; 
+  }
+}
+.metodologia-avion {
+  width: 5.2rem;
+  
+  @include medium {
+    width: 5.7rem; 
+  }
+}
+.metodologia-doc {
+  width: 5rem;
+  @include small {
+    width: 4.4rem; 
+  }
+  @include medium {
+    width: 4.6rem; 
+  }
+}
+.metodologia-money {
+  width: 4rem;
+  @include medium {
+    width: 5rem; 
+  }
+}
+
 .metodologia-row-1 {
   padding-bottom: 2rem;
 }
