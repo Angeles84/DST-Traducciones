@@ -452,6 +452,9 @@ header .carousel-item img {
   @include medium {
     width: 5rem; 
   }
+  @include large {
+    width: 4.8rem; 
+  }
 }
 
 .metodologia-row-1 {
