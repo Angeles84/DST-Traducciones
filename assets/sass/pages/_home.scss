@@ -16,6 +16,12 @@
   @include large {
     padding-bottom: 13rem;
   }
+  @include x-large {
+    padding-bottom: 13.6rem;
+  }
+  @include xx-large {
+    padding-bottom: 15rem;
+  }
 
   h2 {
     font-size: 1.125rem;    //18
