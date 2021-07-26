@@ -10023,7 +10023,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   .servicio-1 {
     height: 24vh;
   }
@@ -10056,7 +10056,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   .servicio-2 {
     height: 24vh;
   }
@@ -10089,7 +10089,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   .servicio-3 {
     height: 24vh;
   }
@@ -10191,7 +10191,7 @@ P {
     height: 31vh;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   .servicio-11 {
     height: 24vh;
   }
@@ -10224,7 +10224,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   .servicio-22 {
     height: 24vh;
   }
@@ -10257,7 +10257,7 @@ P {
     height: 30vh;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   .servicio-33 {
     height: 24vh;
   }
@@ -10586,9 +10586,9 @@ footer .footer-sobre {
     padding-bottom: 13.6rem;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   .carousel-texto-home {
-    padding-bottom: 16rem;
+    padding-bottom: 15.5rem;
   }
 }
 .carousel-texto-home h2 {
