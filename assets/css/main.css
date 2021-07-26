@@ -10455,6 +10455,11 @@ footer .footer-sobre {
 
 @media (min-width: 768px) {
   .footer-col-3 {
+    padding-left: 4.8rem;
+  }
+}
+@media (min-width: 992px) {
+  .footer-col-3 {
     padding-left: 3rem;
   }
 }
