@@ -10183,7 +10183,7 @@ P {
 }
 @media (min-width: 992px) {
   .servicio-11 {
-    height: 38vh;
+    height: 30vh;
   }
 }
 @media (min-width: 1200px) {
@@ -10216,7 +10216,7 @@ P {
 }
 @media (min-width: 992px) {
   .servicio-22 {
-    height: 38vh;
+    height: 30vh;
   }
 }
 @media (min-width: 1200px) {
@@ -10249,7 +10249,7 @@ P {
 }
 @media (min-width: 992px) {
   .servicio-33 {
-    height: 33vh;
+    height: 30vh;
   }
 }
 @media (min-width: 1200px) {
@@ -10530,14 +10530,19 @@ footer .footer-sobre {
 }
 @media (min-width: 768px) {
   .formulario .formulario-enviar {
-    width: 35%;
+    width: 38%;
     padding: 0.5rem 1.7rem;
     font-size: 0.8;
   }
 }
 @media (min-width: 992px) {
   .formulario .formulario-enviar {
-    width: 25%;
+    width: 29%;
+  }
+}
+@media (min-width: 1200px) {
+  .formulario .formulario-enviar {
+    width: 24%;
   }
 }
 
@@ -11123,7 +11128,7 @@ header .carousel-item img {
 }
 
 .metodologia-money {
-  width: 5rem;
+  width: 4.9rem;
 }
 @media (min-width: 992px) {
   .metodologia-money {
@@ -11391,7 +11396,7 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .section-about-us .about-us-img-2 {
-    width: 65%;
+    width: 55%;
   }
 }
 @media (min-width: 992px) {
@@ -11517,7 +11522,7 @@ header .carousel-item img {
 }
 @media (min-width: 768px) {
   .section-confidencialidad img {
-    width: 65%;
+    width: 55%;
   }
 }
 @media (min-width: 992px) {
