@@ -24,13 +24,17 @@ footer {
 footer a {
   margin-bottom: 0.4rem;
   font-weight: $light-300;
-  transition: all 0.6s ease;
+  transition: all 0.5s ease;
   font-weight: $regular;
   color: $dark-gray;
   &:hover {
-    color: $gray-green;
+    color: $green;
     text-decoration: none;
   }
+}
+
+.link-gray {
+  color: $gray-green;
 }
 
 footer h5 {
