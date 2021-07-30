@@ -41,3 +41,9 @@
       @content;
   }
 }
+
+@mixin xxx-large {
+  @media (min-width: #{$min-xxxl}) {
+      @content;
+  }
+}

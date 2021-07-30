@@ -50,7 +50,8 @@ $min-sm: 576px;
 $min-md: 768px;
 $min-lg: 992px;
 $min-xl: 1200px;
-$min-xxl: 1800px;
+$min-xxl: 1500px;
+$min-xxxl: 1800px;
 
 $max-xs: 575px;
 $max-sm: 767px;
@@ -66,7 +67,8 @@ $breakpoints: (
     'md' : (min-width: $min-md),
     'lg' : (min-width: $min-lg),
     'xl' : (min-width: $min-xl),
-    'xxl': (min-width: $min-xxl)
+    'xxl': (min-width: $min-xxl),
+    'xxxl': (min-width: $min-xxxl)
 
 ) !default;
 

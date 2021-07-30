@@ -151,7 +151,10 @@
     height: 31vh;  
   }
   @include xx-large {
-    height: 26vh;  
+    height: 28vh;  
+  }
+  @include xxx-large {
+    height: 25vh;  
   }
 }
 
@@ -165,16 +168,19 @@
     height: 38vh;  
   }
   @include medium {
-    height: 24vh;  
+    height: 23vh;  
   }
   @include large {
     height: 30vh;  
   }
   @include x-large {
-    height: 30vh;  
+    height: 31vh;  
   }
   @include xx-large {
-    height: 26vh;  
+    height: 30vh;  
+  }
+  @include xxx-large {
+    height: 25vh;  
   }
 }
 
@@ -188,16 +194,19 @@
     height: 38vh;  
   }
   @include medium {
-    height: 22vh;  
+    height: 21vh;  
   }
   @include large {
-    height: 30vh;  
+    height: 29vh;  
   }
   @include x-large {
     height: 30vh;  
   }
   @include xx-large {
-    height: 25vh;  
+    height: 27vh;  
+  }
+  @include xxx-large {
+    height: 24vh;  
   }
 }
 
