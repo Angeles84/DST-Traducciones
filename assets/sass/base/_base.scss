@@ -148,9 +148,6 @@
     height: 30vh;  
   }
   @include x-large {
-    height: 32vh;  
-  }
-  @include xx-large {
     height: 33vh;  
   }
   @include xxx-large {
@@ -174,9 +171,6 @@
     height: 30vh;  
   }
   @include x-large {
-    height: 32vh;  
-  }
-  @include xx-large {
     height: 33vh;  
   }
   @include xxx-large {
@@ -200,10 +194,7 @@
     height: 29vh;  
   }
   @include x-large {
-    height: 31vh;  
-  }
-  @include xx-large {
-    height: 31vh;  
+    height: 32vh;  
   }
   @include xxx-large {
     height: 24vh;  

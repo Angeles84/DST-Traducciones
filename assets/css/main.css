@@ -10188,11 +10188,6 @@ P {
 }
 @media (min-width: 1200px) {
   .servicio-11 {
-    height: 32vh;
-  }
-}
-@media (min-width: 1500px) {
-  .servicio-11 {
     height: 33vh;
   }
 }
@@ -10225,11 +10220,6 @@ P {
   }
 }
 @media (min-width: 1200px) {
-  .servicio-22 {
-    height: 32vh;
-  }
-}
-@media (min-width: 1500px) {
   .servicio-22 {
     height: 33vh;
   }
@@ -10264,12 +10254,7 @@ P {
 }
 @media (min-width: 1200px) {
   .servicio-33 {
-    height: 31vh;
-  }
-}
-@media (min-width: 1500px) {
-  .servicio-33 {
-    height: 31vh;
+    height: 32vh;
   }
 }
 @media (min-width: 1800px) {
