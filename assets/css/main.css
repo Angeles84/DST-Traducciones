@@ -11584,6 +11584,44 @@ header .carousel-item img {
     padding-bottom: 5.8rem;
   }
 }
+.texto-us-contacto h2 {
+  font-size: 1.438em;
+  text-shadow: 1px 1px 17px #ffffff;
+}
+@media (min-width: 576px) {
+  .texto-us-contacto h2 {
+    font-size: 1.875em;
+  }
+}
+@media (min-width: 768px) {
+  .texto-us-contacto h2 {
+    font-size: 2.188em;
+  }
+}
+.texto-us-contacto p {
+  font-size: 0.8;
+  text-shadow: 1px 1px 17px #ffffff;
+}
+@media (min-width: 375px) {
+  .texto-us-contacto p {
+    font-size: 0.8;
+  }
+}
+@media (min-width: 576px) {
+  .texto-us-contacto p {
+    font-size: 0.938em;
+  }
+}
+@media (min-width: 768px) {
+  .texto-us-contacto p {
+    font-size: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  .texto-us-contacto p {
+    font-size: 1.063em;
+  }
+}
 
 .section-location-pg hr {
   background-color: #ADC4C8;

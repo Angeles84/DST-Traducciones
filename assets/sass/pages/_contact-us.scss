@@ -22,6 +22,34 @@
     padding-left: 0;
     padding-bottom: 5.8rem;
   }
+  h2 {
+    font-size: $large-23;
+    text-shadow: 1px 1px 17px #ffffff;
+
+    @include small {
+      font-size: $xx-large;  
+    }
+    @include medium {
+      font-size: $xxx-large;  
+    } 
+  }
+
+  p {
+    font-size: $small-b;
+    text-shadow: 1px 1px 17px #ffffff;
+    @include x-small {
+      font-size: $small-b;  
+    }
+    @include small {
+      font-size: $small;  
+    } 
+    @include medium {
+      font-size: $medium;  
+    }
+    @include x-large {
+      font-size: $header-cel;  
+    }
+  } 
 }
 
 .section-location-pg  hr {
