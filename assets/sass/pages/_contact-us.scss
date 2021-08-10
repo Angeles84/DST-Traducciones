@@ -80,6 +80,26 @@
   }
 }
 
+.section-location-pg-en hr {
+  width: 51%;
+
+  @include x-small {
+    width: 39%;
+  }
+  @include small {
+    width: 26%; 
+  }
+  @include medium {
+    width: 19%; 
+  }
+  @include large {
+    width: 13.5%;
+  }
+  @include x-large {
+    width: 11.5%;
+  }
+}
+
 .location-icono-map , .location-icono-phone {
 height: 1.6rem;
 @include medium {
@@ -137,6 +157,26 @@ flex-wrap: nowrap;
   }
   @include x-large {
     width: 35%;
+  }
+}
+
+.section-form-en hr {
+  width: 56%;
+
+  @include x-small {
+    width: 49%; 
+  }
+  @include small {
+    width: 33%; 
+  }
+  @include medium {
+    width: 48%; 
+  }
+  @include large {
+    width: 34.5%;
+  }
+  @include x-large {
+    width: 29%;
   }
 }
 .section-form p {

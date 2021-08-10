@@ -179,6 +179,25 @@ header .carousel-item img {
     
   }
 }
+.article-services hr {
+  width: 76%;
+
+  @include x-small {
+    width: 58%; 
+  }
+  @include small {
+    width: 37%; 
+  }
+  @include medium {
+    width: 28%; 
+  }
+  @include large {
+    width: 21%;
+  }
+  @include x-large {
+    width: 16.6%;
+  }  
+}
 
 .servicio-1, .servicio-2, .servicio-3 {
   display: flex;
@@ -280,6 +299,26 @@ header .carousel-item img {
   }
 }
 
+.article-why-us-en hr {
+  width: 37%;
+
+  @include x-small {
+    width: 33%; 
+  }
+  @include small {
+    width: 20%; 
+  }
+  @include medium {
+    width: 15%; 
+  }
+  @include large {
+    width: 12%;
+  }
+  @include x-large {
+    width: 9%;
+    }
+}
+
 //Testimonios
 .section-testimonios {
   padding-top: 3rem;
@@ -321,7 +360,15 @@ header .carousel-item img {
     line-height: 25px;
   }
 }
-
+.section-testimonials hr {
+  
+  @include large {
+    width: 34%;
+  }
+  @include x-large {
+    width: 27.5%;
+  }
+}
 .carousel-testimonios {
   width: 95%;
   margin: 0 auto;
@@ -405,9 +452,8 @@ header .carousel-item img {
     @include x-large {
       width: 42.7%;
     }
-
   }
-  
+
   .metodologia-foto {
     width: 90%;
     border-radius: 0 50px 0 50px;
@@ -423,6 +469,26 @@ header .carousel-item img {
       width: 95%; 
     }
   }
+}
+
+.section-method hr {
+  width: 53%;
+
+  @include x-small {
+    width: 76%; 
+  }
+  @include small {
+    width: 52%; 
+  }
+  @include medium {
+    width: 39%; 
+  }
+  @include large {
+    width: 29%;
+  }
+  @include x-large {
+    width: 23.7%;
+  } 
 }
 
 .metodologia-sobre {
@@ -469,7 +535,7 @@ header .carousel-item img {
 .section-location  hr {
     background-color: $green;
     height: 0.092em;
-    width: 59%;
+    width: 58%;
     margin-top: 0.3rem;
     margin-bottom: 2.7rem;
     margin-left: 0;
@@ -494,6 +560,25 @@ header .carousel-item img {
     }
 }
 
+.section-location-en hr {
+  width: 53%;
+
+  @include x-small {
+    width: 46%;
+  }
+  @include small {
+    width: 32%; 
+  }
+  @include medium {
+    width: 24.5%; 
+  }
+  @include large {
+    width: 18%;
+  }
+  @include x-large {
+    width: 14.7%;
+  }
+}
 .location-icono-map , .location-icono-phone {
   height: 1.8rem;
   @include medium {
