@@ -11164,7 +11164,7 @@ header .carousel-item img {
 }
 
 .section-method hr {
-  width: 50%;
+  width: 53%;
 }
 @media (min-width: 375px) {
   .section-method hr {
@@ -11285,11 +11285,11 @@ header .carousel-item img {
 }
 
 .section-location-en hr {
-  width: 55%;
+  width: 57%;
 }
 @media (min-width: 375px) {
   .section-location-en hr {
-    width: 48%;
+    width: 50%;
   }
 }
 @media (min-width: 576px) {
