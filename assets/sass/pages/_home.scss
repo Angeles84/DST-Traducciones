@@ -472,10 +472,10 @@ header .carousel-item img {
 }
 
 .section-method hr {
-  width: 53%;
+  width: 50%;
 
   @include x-small {
-    width: 76%; 
+    width: 78%; 
   }
   @include small {
     width: 52%; 
@@ -561,22 +561,22 @@ header .carousel-item img {
 }
 
 .section-location-en hr {
-  width: 53%;
+  width: 55%;
 
   @include x-small {
-    width: 46%;
+    width: 48%;
   }
   @include small {
     width: 32%; 
   }
   @include medium {
-    width: 24.5%; 
+    width: 24%; 
   }
   @include large {
-    width: 18%;
+    width: 17.5%;
   }
   @include x-large {
-    width: 14.7%;
+    width: 14.5%;
   } 
 }
 .location-icono-map , .location-icono-phone {
