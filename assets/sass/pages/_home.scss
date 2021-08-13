@@ -100,7 +100,7 @@ header .carousel-item img {
     margin-left: 0;
     
     @include x-small {
-      width: 42%; 
+      width: 41%; 
     }
     @include small {
       width: 28%; 
@@ -129,7 +129,6 @@ header .carousel-item img {
     line-height: 25px;
   }
 }
-
 
 //Servicios
 .article-servicios {
@@ -183,7 +182,7 @@ header .carousel-item img {
   width: 76%;
 
   @include x-small {
-    width: 58%; 
+    width: 57%; 
   }
   @include small {
     width: 37%; 
@@ -226,7 +225,7 @@ header .carousel-item img {
     margin-bottom: 1.1rem;
 
     @include x-small {
-      width: 73%; 
+      width: 71%; 
     }
     @include small {
       width: 48%; 
@@ -300,10 +299,10 @@ header .carousel-item img {
 }
 
 .article-why-us-en hr {
-  width: 36.5%;
+  width: 36%;
 
   @include x-small {
-    width: 33%; 
+    width: 32%; 
   }
   @include small {
     width: 20%; 
@@ -472,10 +471,10 @@ header .carousel-item img {
 }
 
 .section-method hr {
-  width: 58%;
+  width: 60%;
 
   @include x-small {
-    width: 78%; 
+    width: 77%; 
   }
   @include small {
     width: 52%; 
@@ -535,13 +534,13 @@ header .carousel-item img {
 .section-location  hr {
     background-color: $green;
     height: 0.092em;
-    width: 58%;
+    width: 58.5%;
     margin-top: 0.3rem;
     margin-bottom: 2.7rem;
     margin-left: 0;
 
     @include x-small {
-      width: 56%;
+      width: 55%;
       margin-bottom: 3.2rem; 
     }
     @include small {
@@ -564,7 +563,7 @@ header .carousel-item img {
   width: 57.5%;
 
   @include x-small {
-    width: 50%;
+    width: 47.5%;
   }
   @include small {
     width: 32%; 

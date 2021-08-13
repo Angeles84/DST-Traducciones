@@ -10700,7 +10700,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-about hr {
-    width: 42%;
+    width: 41%;
   }
 }
 @media (min-width: 576px) {
@@ -10801,7 +10801,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .article-services hr {
-    width: 58%;
+    width: 57%;
   }
 }
 @media (min-width: 576px) {
@@ -10851,7 +10851,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .article-filter hr {
-    width: 73%;
+    width: 71%;
   }
 }
 @media (min-width: 576px) {
@@ -10950,11 +10950,11 @@ header .carousel-item img {
 }
 
 .article-why-us-en hr {
-  width: 36.5%;
+  width: 36%;
 }
 @media (min-width: 375px) {
   .article-why-us-en hr {
-    width: 33%;
+    width: 32%;
   }
 }
 @media (min-width: 576px) {
@@ -11164,11 +11164,11 @@ header .carousel-item img {
 }
 
 .section-method hr {
-  width: 58%;
+  width: 60%;
 }
 @media (min-width: 375px) {
   .section-method hr {
-    width: 78%;
+    width: 77%;
   }
 }
 @media (min-width: 576px) {
@@ -11250,14 +11250,14 @@ header .carousel-item img {
 .section-location hr {
   background-color: #ADC4C8;
   height: 0.092em;
-  width: 58%;
+  width: 58.5%;
   margin-top: 0.3rem;
   margin-bottom: 2.7rem;
   margin-left: 0;
 }
 @media (min-width: 375px) {
   .section-location hr {
-    width: 56%;
+    width: 55%;
     margin-bottom: 3.2rem;
   }
 }
@@ -11289,7 +11289,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-location-en hr {
-    width: 50%;
+    width: 47.5%;
   }
 }
 @media (min-width: 576px) {
@@ -11765,7 +11765,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-location-pg hr {
-    width: 45%;
+    width: 44%;
     margin-bottom: 3.2rem;
   }
 }
@@ -11797,7 +11797,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-location-pg-en hr {
-    width: 39%;
+    width: 38%;
   }
 }
 @media (min-width: 576px) {
@@ -11868,7 +11868,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-form hr {
-    width: 56%;
+    width: 54%;
     margin-bottom: 2.2rem;
   }
 }
@@ -11900,7 +11900,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-form-en hr {
-    width: 49%;
+    width: 47%;
   }
 }
 @media (min-width: 576px) {
