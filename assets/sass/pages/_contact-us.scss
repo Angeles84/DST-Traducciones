@@ -55,7 +55,7 @@
 .section-location-pg  hr {
   background-color: $green;
   height: 0.092em;
-  width: 60.7%;
+  width: 55%;
   margin-top: 0.3rem;
   margin-bottom: 2.4rem;
   margin-left: 0;
@@ -81,7 +81,7 @@
 }
 
 .section-location-pg-en hr {
-  width: 51%;
+  width: 47%;
 
   @include x-small {
     width: 39%;
@@ -135,7 +135,7 @@ flex-wrap: nowrap;
 .section-form hr {
   background-color: $green;
   height: 0.092em;
-  width: 66%;
+  width: 59%;
   margin-top: 0.3rem;
   margin-bottom: 2.2rem; 
   margin-left: 0;
@@ -147,20 +147,20 @@ flex-wrap: nowrap;
     width: 40%; 
   }
   @include medium {
-    width: 57%; 
+    width: 55%; 
     margin-bottom: 2.5rem;
   }
   @include large {
-    width: 42.5%;
+    width: 41%;
     margin-bottom: 2.8rem;
   }
   @include x-large {
-    width: 35%;
+    width: 34%;
   }
 }
 
 .section-form-en hr {
-  width: 56%;
+  width: 51%;
 
   @include x-small {
     width: 49%; 
@@ -169,7 +169,7 @@ flex-wrap: nowrap;
     width: 33%; 
   }
   @include medium {
-    width: 48%; 
+    width: 47%; 
   }
   @include large {
     width: 34.5%;

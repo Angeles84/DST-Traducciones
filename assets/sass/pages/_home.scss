@@ -106,10 +106,10 @@ header .carousel-item img {
       width: 28%; 
     }
     @include medium {
-      width: 21%; 
+      width: 20.5%; 
     }
     @include large {
-      width: 31%;
+      width: 30%;
       margin-bottom: 1.5rem;
     }
     @include x-large {
@@ -179,7 +179,7 @@ header .carousel-item img {
   }
 }
 .article-services hr {
-  width: 77%;
+  width: 72%;
 
   @include x-small {
     width: 58%; 
@@ -188,10 +188,10 @@ header .carousel-item img {
     width: 37%; 
   }
   @include medium {
-    width: 28%; 
+    width: 27%; 
   }
   @include large {
-    width: 21%;
+    width: 20%;
   }
   @include x-large {
     width: 16.6%;
@@ -220,7 +220,7 @@ header .carousel-item img {
   hr {
     background-color: $green;
     height: 0.092em;
-    width: 85%;
+    width: 75%;
     margin-top: 0.3rem;
     margin-bottom: 1.1rem;
 
@@ -235,7 +235,7 @@ header .carousel-item img {
       margin-bottom: 2rem;
     }
     @include large {
-      width: 29%;
+      width: 27%;
     }
     @include x-large {
       width: 20%;
@@ -299,7 +299,7 @@ header .carousel-item img {
 }
 
 .article-why-us-en hr {
-  width: 36%;
+  width: 32%;
 
   @include x-small {
     width: 32%; 
@@ -314,7 +314,7 @@ header .carousel-item img {
     width: 12%;
   }
   @include x-large {
-    width: 9%;
+    width: 8.5%;
     }
 }
 
@@ -349,7 +349,7 @@ header .carousel-item img {
       width: 70%; 
     }
     @include large {
-      width: 45%;
+      width: 52%;
     }
     @include x-large {
       width: 44%;
@@ -362,7 +362,7 @@ header .carousel-item img {
 .section-testimonials hr {
   
   @include large {
-    width: 34%;
+    width: 32%;
   }
   @include x-large {
     width: 27.5%;
@@ -430,7 +430,7 @@ header .carousel-item img {
   hr {
     background-color: $green;
     height: 0.092em;
-    width: 50%;
+    width: 52%;
     margin-top: 0.3rem;
     margin-bottom: 2.5rem;
     margin-left: 0;
@@ -471,7 +471,7 @@ header .carousel-item img {
 }
 
 .section-method hr {
-  width: 60%;
+  width: 57%;
 
   @include x-small {
     width: 82%; 
@@ -480,10 +480,10 @@ header .carousel-item img {
     width: 52%; 
   }
   @include medium {
-    width: 39%; 
+    width: 38%; 
   }
   @include large {
-    width: 29%;
+    width: 28%;
   }
   @include x-large {
     width: 23.7%;
@@ -551,7 +551,7 @@ header .carousel-item img {
       margin-bottom: 2.5rem;
     }
     @include large {
-      width: 20%;
+      width: 19.6%;
       margin-bottom: 2.8rem;
     }
     @include x-large {
@@ -560,7 +560,7 @@ header .carousel-item img {
 }
 
 .section-location-en hr {
-  width: 58%;
+  width: 51%;
 
   @include x-small {
     width: 49%;
@@ -569,10 +569,10 @@ header .carousel-item img {
     width: 32%; 
   }
   @include medium {
-    width: 24%; 
+    width: 23%; 
   }
   @include large {
-    width: 17.5%;
+    width: 16.7%;
   }
   @include x-large {
     width: 14.5%;
