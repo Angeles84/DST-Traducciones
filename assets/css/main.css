@@ -10693,7 +10693,7 @@ header .carousel-item img {
 .section-about hr {
   background-color: #ADC4C8;
   height: 0.092em;
-  width: 60%;
+  width: 52%;
   margin-top: 0.3rem;
   margin-bottom: 2rem;
   margin-left: 0;
@@ -11168,7 +11168,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-method hr {
-    width: 77%;
+    width: 82%;
   }
 }
 @media (min-width: 576px) {
@@ -11760,7 +11760,7 @@ header .carousel-item img {
   height: 0.092em;
   width: 60.7%;
   margin-top: 0.3rem;
-  margin-bottom: 2.7rem;
+  margin-bottom: 2.4rem;
   margin-left: 0;
 }
 @media (min-width: 375px) {
@@ -11863,13 +11863,12 @@ header .carousel-item img {
   height: 0.092em;
   width: 66%;
   margin-top: 0.3rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 2.2rem;
   margin-left: 0;
 }
 @media (min-width: 375px) {
   .section-form hr {
-    width: 56%;
-    margin-bottom: 2.2rem;
+    width: 57%;
   }
 }
 @media (min-width: 576px) {
@@ -11900,7 +11899,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-form-en hr {
-    width: 50%;
+    width: 49%;
   }
 }
 @media (min-width: 576px) {

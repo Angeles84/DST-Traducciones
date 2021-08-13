@@ -57,7 +57,7 @@
   height: 0.092em;
   width: 60.7%;
   margin-top: 0.3rem;
-  margin-bottom: 2.7rem;
+  margin-bottom: 2.4rem;
   margin-left: 0;
 
   @include x-small {
@@ -137,12 +137,11 @@ flex-wrap: nowrap;
   height: 0.092em;
   width: 66%;
   margin-top: 0.3rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 2.2rem; 
   margin-left: 0;
 
   @include x-small {
-    width: 56%;
-    margin-bottom: 2.2rem; 
+    width: 57%;
   }
   @include small {
     width: 40%; 
@@ -164,7 +163,7 @@ flex-wrap: nowrap;
   width: 56%;
 
   @include x-small {
-    width: 50%; 
+    width: 49%; 
   }
   @include small {
     width: 33%; 

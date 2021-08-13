@@ -94,7 +94,7 @@ header .carousel-item img {
   hr {
     background-color: $green;
     height: 0.092em;
-    width: 60%;
+    width: 52%;
     margin-top: 0.3rem;
     margin-bottom: 2rem;
     margin-left: 0;
@@ -474,7 +474,7 @@ header .carousel-item img {
   width: 60%;
 
   @include x-small {
-    width: 77%; 
+    width: 82%; 
   }
   @include small {
     width: 52%; 
