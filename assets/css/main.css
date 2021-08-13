@@ -10700,7 +10700,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-about hr {
-    width: 41%;
+    width: 42%;
   }
 }
 @media (min-width: 576px) {
@@ -10797,11 +10797,11 @@ header .carousel-item img {
 }
 
 .article-services hr {
-  width: 76%;
+  width: 77%;
 }
 @media (min-width: 375px) {
   .article-services hr {
-    width: 57%;
+    width: 58%;
   }
 }
 @media (min-width: 576px) {
@@ -11257,7 +11257,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-location hr {
-    width: 55%;
+    width: 56%;
     margin-bottom: 3.2rem;
   }
 }
@@ -11285,11 +11285,11 @@ header .carousel-item img {
 }
 
 .section-location-en hr {
-  width: 57.5%;
+  width: 58%;
 }
 @media (min-width: 375px) {
   .section-location-en hr {
-    width: 47.5%;
+    width: 48%;
   }
 }
 @media (min-width: 576px) {
@@ -11765,7 +11765,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-location-pg hr {
-    width: 44%;
+    width: 45%;
     margin-bottom: 3.2rem;
   }
 }
@@ -11797,7 +11797,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-location-pg-en hr {
-    width: 38%;
+    width: 39%;
   }
 }
 @media (min-width: 576px) {
@@ -11868,7 +11868,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-form hr {
-    width: 54%;
+    width: 55%;
     margin-bottom: 2.2rem;
   }
 }
@@ -11900,7 +11900,7 @@ header .carousel-item img {
 }
 @media (min-width: 375px) {
   .section-form-en hr {
-    width: 47%;
+    width: 48%;
   }
 }
 @media (min-width: 576px) {
